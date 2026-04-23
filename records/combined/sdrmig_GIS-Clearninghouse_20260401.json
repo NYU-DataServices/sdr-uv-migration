@@ -1,0 +1,295 @@
+{
+  "access": {
+    "record": "public"
+    "files": "restricted",
+  },
+  "files": {
+    "enabled": true
+  },
+  "metadata": {
+    "title": "County-Level Real Property Tax Parcel Data for New York State, 2004",
+    "subject": [
+        {
+        "subject": "Land value taxation"
+      },
+      {
+        "subject": "Property"
+      },
+      {
+        "subject": "Tax assessment"
+      }
+      
+    ],
+    "geoLocations": [
+  {
+    "geoLocationPlace": "New York (State)--New York"
+  }
+],
+    "resource_type": { "id": "dataset" },
+    "Language": [
+      "eng"
+    ],
+    "identifiers": [
+  {
+    "identifier": "http://hdl.handle.net/2451/42698",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42699",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42700",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42701",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42702",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42703",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42704",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42705",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42706",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42707",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42708",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42709",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42710",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42711",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42712",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42713",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42714",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42715",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42716",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42717",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42718",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42719",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42720",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42721",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42722",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42723",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42724",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42725",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42726",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42727",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42728",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42729",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42730",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42731",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42732",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42733",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42734",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42735",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42736",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42737",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42738",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42739",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42740",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42741",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42742",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42743",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42744",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42745",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42746",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42747",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42748",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42749",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42750",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42751",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42752",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42753",
+    "scheme": "handle"
+  },
+  {
+    "identifier": "http://hdl.handle.net/2451/42754",
+    "scheme": "handle"
+  }
+],
+    "description": "This dataset consists of point shapefile layers representing real property tax parcels for all counties in New York State for the year 2004. Each point represents the visual center of a parcel as recorded on local tax maps. The associated attribute data—including property ownership, assessed land value, and taxation status—was derived from municipal assessment rolls submitted annually under Article 15 of the Real Property Tax Law to the Office of Real Property Services (ORPS). These data were standardized and stored in a central database for the purpose of calculating equalization rates.",
+    "creator": [{
+    "person_or_org": {
+      "name": "New York (State). Department of Taxation and Finance",
+      "type": "organizational"
+    }
+  }],
+    "rights": [
+      {
+        "title": {"en": "License Held by Publisher"}
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2004",
+        "dateType": "Coverage"
+      }
+    ],
+    "custom_fields": {
+      "geospatial:resource_type": {
+        "id": "point-data"
+      },
+      "geoserver": {
+        "layer": [
+          "sdr:nyu_2451_42698"
+],
+        "bounds": "ENVELOPE(-79.762152, -72.135189, 45.010025, 40.574608)",
+        "has_wms": true,
+        "has_wfs": true
+      }
+    }
+  }
+}

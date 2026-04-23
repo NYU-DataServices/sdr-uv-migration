@@ -1,0 +1,85 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Communist China: Map Folio",
+    "publication_date": "1967",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Directorate of Intelligence, Office of Basic and Geographic Intelligence",
+          "type": "organizational"
+        }
+      }
+    ],
+    "geoLocations": [
+      {
+        "geoLocationPlace": "People's Republic of China, China"
+      }
+    ],
+    "description": "This collection consists of five georeferenced raster maps taken from Communist China: Map Folio, published in 1967 by the CIA's Directorate of Intelligence, Office of Basic and Geographic Intelligence. The maps, primarily at a 1:10,000,000 scale, document key aspects of China's economic and social geography in 1967, including railroads, population distribution, agricultural production, fuels and power resources, and industrial sites. The folio was intended as an introduction and general reference for persons interested in Communist China, issued primarily for government use with select copies released to academic institutions. Source data was drawn from the American Consulate General, Hong Kong; an official State Statistical Bureau publication called Ten Great Years (1960); an article by Hou, H. Y. et al. called \"The Vegetation of China with Special Reference to Main Soil Types\" (1957); a Chinese map entitled Chung-kuo Nien Chiang-shui-liang (Annual Precipitation in China) (1964); and an atlas published by the Institute of Ethnography of the USSR Academy of Sciences. The maps were scanned by NYU Libraries Digital Libraries and Technology Services and georeferenced by NYU Libraries Data Services.",
+    "publisher": "Directorate of Intelligence, Office of Basic and Geographic Intelligence",
+    "subjects": [
+      { "subject": "China--Maps" },
+      { "subject": "Railroads" },
+      { "subject": "Railroads and state" },
+      { "subject": "Transportation" },
+      { "subject": "Population" },
+      { "subject": "Demographic surveys" },
+      { "subject": "Agricultural sites" },
+      { "subject": "Power plants" },
+      { "subject": "Coal" },
+      { "subject": "Petroleum" },
+      { "subject": "Manufacturing industries" }
+    ],
+    "languages": [
+      { "id": "eng" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "1967",
+        "type": { "id": "issued" }
+      },
+      {
+        "date": "1967",
+        "type": { "id": "coverage" },
+        "description": "collection coverage year"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/36737" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/36738" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/36739" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/36740" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/36741" }
+    ],
+    "rights": [
+      {
+        "title": { "en": "License Held by Publisher" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "raster-data"
+    },
+    "geoserver": {
+      "layer": [
+        "sdr:nyu_2451_36737"
+      ],
+      "bounds": "ENVELOPE(73.557693, 134.773911, 53.56086, 10.175472)",
+      "has_wms": true,
+      "has_wfs": false
+    }
+  }
+}

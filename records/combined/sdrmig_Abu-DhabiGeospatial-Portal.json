@@ -1,0 +1,136 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Abu Dhabi Geospatial Portal",
+    "publication_date": "2018",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Abu Dhabi Government",
+          "type": "organizational",
+          "scheme":"isni",
+          "identifier":"0000 0004 0392 1032"
+        }
+      }
+    ],
+    "geoLocations": [
+      {
+        "geoLocationPlace": "Abu Dhabi, United Arab Emirates"
+      }
+    ],
+    "description": "This collection brings together 20 point shapefile layers representing various community facilities and infrastructure in the Emirate of Abu Dhabi, United Arab Emirates. The datasets were produced as part of the Abu Dhabi Urban Planning Council (UPC) project survey conducted during the 2010–2011 period for planning new community facilities, and were hosted in the Abu Dhabi Geoportal—a platform that aggregates geographic information from government, commercial, and noncommercial organizations, including map images, map services, geographic datasets, clearinghouses, and land references. The collection encompasses a wide range of facility types, including commercial properties managed by Abu Dhabi Commercial Properties (ADCP), sea navigation buoys, commercial farms, cultural facilities such as libraries and museums, food supply establishments, government department offices, health centers, health clinics, higher education institutes, hospitals, hotel apartments, hotels, AWQAF-operated mosques, pharmaceutical entities, polyclinics, private and public schools, health service provision points, tourism kiosks, and licensed trading establishments. Most datasets represent conditions as of 2010; three datasets—higher education institutes, private schools, and public schools—reflect data from the 2005 Census carried out by the Statistics Centre Abu Dhabi.",
+    "publisher": "Abu Dhabi Government",
+    "subjects": [
+      { "subject": "Locations" },
+      { "subject": "Commercial real estate--Management" },
+      { "subject": "Property--United Arab Emirates" },
+      { "subject": "Bank Abū Ẓaby al-Tijārī" },
+      { "subject": "Majlis Abū Ẓaby lil-Takhṭīṭ al-ʻUmrānī" },
+      { "subject": "Oceanographic buoys" },
+      { "subject": "Coastwise navigation" },
+      { "subject": "Aids to navigation--Persian Gulf" },
+      { "subject": "Agriculture" },
+      { "subject": "Agricultural Sites" },
+      { "subject": "Agricultural administration--Arab countries" },
+      { "subject": "Cultural spaces" },
+      { "subject": "Libraries" },
+      { "subject": "Mosques" },
+      { "subject": "Museums" },
+      { "subject": "Food" },
+      { "subject": "Food supply--Arab countries" },
+      { "subject": "Food security--Arab countries" },
+      { "subject": "Government" },
+      { "subject": "Public buildings" },
+      { "subject": "Health facilities" },
+      { "subject": "Health" },
+      { "subject": "Medical centers" },
+      { "subject": "Education" },
+      { "subject": "Education--Arabian Peninsula" },
+      { "subject": "Abū Ẓaby (United Arab Emirates : Emirate) Markaz al-Iḥṣāʼ Abū Ẓaby" },
+      { "subject": "Education, Higher" },
+      { "subject": "All-suite hotels" },
+      { "subject": "Hotels--Arab countries" },
+      { "subject": "Culture and tourism" },
+      { "subject": "Hotels" },
+      { "subject": "Mosques--Arab countries" },
+      { "subject": "Islam" },
+      { "subject": "Private Schools" },
+      { "subject": "Public schools" },
+      { "subject": "Tourism--United Arab Emirates" },
+      { "subject": "Travel agents" },
+      { "subject": "Trade" },
+      { "subject": "Commerce" },
+      { "subject": "Economic development" }
+    ],
+    "languages": [
+      { "id": "eng" },
+      { "id": "ara" }
+    ],
+    "dates": [
+      {
+        "date": "2018",
+        "type": { "id": "issued" }
+      },
+      {
+        "date": "2010",
+        "type": { "id": "coverage" },
+        "description": "primary collection coverage year"
+      },
+      {
+        "date": "2005",
+        "type": { "id": "coverage" },
+        "description": "coverage year for education datasets (nyu_2451_42130, nyu_2451_42137, nyu_2451_42139)"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42122" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42123" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42124" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42125" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42126" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42127" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42128" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42129" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42130" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42131" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42132" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42133" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42134" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42135" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42136" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42137" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42138" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42139" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42140" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42141" }
+    ],
+    "rights": [
+      {
+        "title": { "en": "License Held by Publisher" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "point-data"
+    },
+    "geoserver": {
+      "layer": [
+        "sdr:nyu_2451_42122"
+      ],
+      "bounds": "ENVELOPE(54.25588497075, 54.47744842925, 24.567419653267, 24.365913746733)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}
