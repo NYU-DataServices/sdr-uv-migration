@@ -1,0 +1,132 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "NYC Geodatabase (version jan2016)",
+    "publication_date": "2016",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "GIS Lab, Newman Library, Baruch CUNY",
+          "type": "organizational"
+        }
+      }
+    ],
+    "geoLocations": [
+      {
+        "geoLocationPlace": "New York City, New York, United States"
+      },
+      {
+        "geoLocationPlace": "New York-Northern New Jersey-Long Island, New York, United States"
+      }
+    ],
+    "description": "This collection consists of 26 individual spatial layers and two consolidated geodatabases comprising the NYC Geodatabase (nyc_gdb, version January 2016), a resource designed for basic geographic analysis and thematic mapping within the five boroughs of New York City, created by the GIS Lab at the Newman Library, Baruch College, CUNY. The layers were compiled from public sources including the NYC Department of City Planning, NYC Open Data, the U.S. Census Bureau, and various city agencies. Coverage includes administrative boundaries (boroughs, census tracts, ZIP Code Tabulation Areas, Public Use Microdata Areas, and metropolitan area counties), physical geography (coastal water, rivers, lakes, reservoirs, greenspace, and landmarks), transportation infrastructure (roads, subway stations and complexes, train stations, and PATH stations with ridership data), and public facilities (public and private schools, hospitals, public libraries, colleges and universities, and large public facilities such as airports and correctional facilities). The collection also includes two consolidated geodatabases—an open-source SQLite version (nyu_2451_34635) and an ArcGIS version (nyu_2451_34636)—that bundle all layers along with related Census tabular data from the 2010 Census and American Community Survey. This dataset is intended for researchers, students, policy makers, and educators for reference and basic geographic analysis and mapping purposes.",
+    "publisher": "Newman Library (Bernard M. Baruch College)",
+    "subjects": [
+      { "subject": "Boundaries" },
+      { "subject": "Boroughs" },
+      { "subject": "Counties" },
+      { "subject": "Metropolitan areas" },
+      { "subject": "Census districts" },
+      { "subject": "Population" },
+      { "subject": "Demography" },
+      { "subject": "Neighborhoods" },
+      { "subject": "Population geography" },
+      { "subject": "Transportation" },
+      { "subject": "Local transit" },
+      { "subject": "Urban transportation" },
+      { "subject": "Subway stations" },
+      { "subject": "Commuting" },
+      { "subject": "Railroads" },
+      { "subject": "Railroad stations" },
+      { "subject": "Roads" },
+      { "subject": "Parks" },
+      { "subject": "Recreation areas" },
+      { "subject": "Public spaces" },
+      { "subject": "Cemeteries" },
+      { "subject": "Libraries" },
+      { "subject": "Public libraries" },
+      { "subject": "Hospitals" },
+      { "subject": "Medical centers" },
+      { "subject": "Universities and colleges" },
+      { "subject": "Public schools" },
+      { "subject": "Private schools" },
+      { "subject": "Water" },
+      { "subject": "Bodies of water" },
+      { "subject": "Zip codes" }
+    ],
+    "languages": [
+      { "id": "eng" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2016",
+        "type": { "id": "issued" }
+      },
+      {
+        "date": "2010/2016",
+        "type": { "id": "coverage" },
+        "description": "administrative and physical geography layers primarily from the 2010 Census; public facility and transit layers updated to 2015–2016"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34490" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34491" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34492" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34493" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34494" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34495" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34496" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34497" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34498" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34499" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34500" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34501" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34502" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34503" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34504" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34505" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34506" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34507" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34508" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34509" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34510" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34511" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34512" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34513" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34514" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34516" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34635" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34636" }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-nc-nd-4.0",
+        "title": { "en": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": [
+        "sdr:nyu_2451_34490"
+      ],
+      "bounds": "ENVELOPE(-75.359184, -71.777491, 42.1769919999999, 39.4751979999998)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Historical Boundaries of India",
+    "publication_date": "2013",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "ML InfoMap (Firm)",
+          "type": "organizational"
+        }
+      }
+    ],
+    "geoLocations": [
+      {
+        "geoLocationPlace": "India"
+      }
+    ],
+    "description": "This collection consists of eight polygon shapefile layers representing multi-level administrative boundaries of India for the 1991 and 2001 Census years, produced by ML InfoMap. For each Census year, the collection includes boundaries at four administrative levels: block, sub-district (Tahsil/Taluka), district, and state. Each layer includes socio-demographic Census attribute data such as total population, population by sex, literacy rates, sex ratio, and rural/urban populations sourced from secondary government sources including the Survey of India, Census of India, and the Election Commission. The 1991 layers cover 466 districts across 25 states and 7 union territories; the 2001 state layer covers 28 states. The 2001 sub-district layer additionally includes household, literacy, and employment statistics. This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for multi-level demographic analysis within basic applications to support graphical overlays and analysis with other spatial data.",
+    "publisher": "ML InfoMap (Firm)",
+    "subjects": [
+      { "subject": "Sex ratio" },
+      { "subject": "Literacy" },
+      { "subject": "Population" },
+      { "subject": "Statistics" },
+      { "subject": "Administrative and political divisions" },
+      { "subject": "Boundaries" },
+      { "subject": "Society" },
+      { "subject": "Demography" },
+      { "subject": "Labor supply" },
+      { "subject": "Housing" }
+    ],
+    "languages": [
+      { "id": "eng" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2013",
+        "type": { "id": "issued" }
+      },
+      {
+        "date": "1991/2001",
+        "type": { "id": "coverage" },
+        "description": "block, sub-district, district, and state boundary layers for the 1991 and 2001 Census years"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34307" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34366" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34377" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34388" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34399" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34410" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34421" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34432" }
+    ],
+    "rights": [
+      {
+        "title": { "en": "License Held by Publisher" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": [
+        "sdr:nyu_2451_34307"
+      ],
+      "bounds": "ENVELOPE(68.110092, 97.409103, 37.050301, 6.755698)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

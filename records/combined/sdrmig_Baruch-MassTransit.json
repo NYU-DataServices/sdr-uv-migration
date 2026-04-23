@@ -1,0 +1,116 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "NYC Mass Transit Spatial Layers",
+    "publication_date": "2019",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "GIS Lab, Newman Library, Baruch CUNY",
+          "type": "organizational"
+          
+        }
+      }
+    ],
+    "geoLocations": [
+      {
+        "geoLocationPlace": "New York City, New York, United States"
+      },
+      {
+        "geoLocationPlace": "New York-Northern New Jersey-Long Island, New York, United States"
+      }
+    ],
+    "description": "This collection consists of 32 point and line shapefile layers representing mass transit infrastructure in the New York City metropolitan area, created by the GIS Lab at the Newman Library, Baruch College, CUNY as part of the NYC Mass Transit Spatial Layers series. The collection provides well-documented and readily-usable GIS layers of NYC mass transit features at two main vintages: a May 2016 set (nyu_2451_34689–34699, 34753–34760) and an updated 2017–2019 set (nyu_2451_60058–60070). Layers were derived from GTFS data feeds published by the Metropolitan Transportation Authority (MTA) and from NJ Transit and NJ Office of GIS sources. Coverage includes local and express bus routes and stops (by borough for the 2016 layers; citywide for the 2019 layers), Long Island Rail Road routes and stops, Metro-North Railroad routes, stops, and Bronx shuttle bus stops, New York City Subway routes, stops, and station entrances, and Port Authority Trans-Hudson (PATH) train routes and stops. Python scripts were used to process the input data and save each layer in the local state plane coordinate reference system. This dataset is intended for researchers, policy makers, students, and educators for basic geographic analysis and mapping purposes. An ISO/TC 211 document in XML format is available within each zip file to provide further documentation about the layers.",
+    "publisher": "Newman Library (Bernard M. Baruch College)",
+    "subjects": [
+      { "subject": "Transportation" },
+      { "subject": "Local transit" },
+      { "subject": "Commuting" },
+      { "subject": "Buses" },
+      { "subject": "Bus stops" },
+      { "subject": "Railroads" },
+      { "subject": "Railroad stations" },
+      { "subject": "Railroad terminals" },
+      { "subject": "Subways" },
+      { "subject": "Subway stations" }
+    ],
+    "languages": [
+      { "id": "eng" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2019",
+        "type": { "id": "issued" }
+      },
+      {
+        "date": "2016/2019",
+        "type": { "id": "coverage" },
+        "description": "May 2016 layers (nyu_2451_34689–34760) and updated 2017–2019 layers (nyu_2451_60058–60070)"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34689" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34690" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34691" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34692" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34693" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34694" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34695" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34696" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34697" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34698" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34699" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34753" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34754" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34755" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34756" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34757" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34758" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34759" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34760" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60058" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60059" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60060" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60061" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60062" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60063" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60064" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60065" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60066" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60067" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60068" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60069" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/60070" }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-nc-nd-4.0",
+        "title": { "en": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "point-data"
+    },
+    "geoserver": {
+      "layer": [
+        "sdr:nyu_2451_34689"
+      ],
+      "bounds": "ENVELOPE(-74.2554130647688, -71.9541238589, 41.8147219999999, 40.4985796357109)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "NYC Geocoded Real Estate Sales",
+    "publication_date": "2019",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "GIS Lab, Newman Library, Baruch CUNY",
+          "type": "organizational"
+        }
+      }
+    ],
+    "geoLocations": [
+      {
+        "geoLocationPlace": "New York City, New York, United States"
+      }
+    ],
+    "description": "This collection consists of 17 point datasets representing geocoded real estate property sales in New York City from 2003 to 2018, created by the GIS Lab at the Newman Library, Baruch College, CUNY. The collection includes 16 annual point shapefiles covering each year from 2003–2018, as well as a consolidated open-source SQLite geodatabase (nyu_2451_34679) containing all sales for 2003–2018. Each annual layer was created from Detailed Annual Sales Reports by Borough published by the New York City Department of Finance. Python scripts were used to read in and combine each borough's sales data citywide; the NYC Geoclient API (developed by NYC DOITT) was used to geocode property locations by address or by block and lot. Manual matching via archival tax maps was performed for records where lot information had changed over time. The collection covers all five boroughs—Manhattan, the Bronx, Brooklyn, Queens, and Staten Island. The coordinate reference system is NY State Plane Long Island in feet. The unique identifier for each record is Sale_id; Bbl_id uniquely identifies a property and may repeat if it was sold more than once in a given year. Sales with values less than $10 or equal to $0 are flagged as non-usable transfers and are not considered representative of true market conditions.",
+    "publisher": "Newman Library (Bernard M. Baruch College)",
+    "subjects": [
+      { "subject": "Real property" },
+      { "subject": "Property" },
+      { "subject": "Real estate business" }
+    ],
+    "languages": [
+      { "id": "eng" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2019",
+        "type": { "id": "issued" }
+      },
+      {
+        "date": "2003/2018",
+        "type": { "id": "coverage" },
+        "description": "annual real estate sales layers for each year 2003–2018"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34666" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34667" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34668" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34669" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34670" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34671" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34672" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34673" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34674" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34675" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34676" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34677" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34678" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34679" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44424" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44425" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44426" }
+    ],
+    "rights": [
+      {
+        "id": "cc-by-nc-nd-4.0",
+        "title": { "en": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "point-data"
+    },
+    "geoserver": {
+      "layer": [
+        "sdr:nyu_2451_34666"
+      ],
+      "bounds": "ENVELOPE(-74.2554130647688, -73.7003835482451, 40.9133087258663, 40.4985796357109)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "access": {
+    "files": "restricted",
+    "record": "public"
+  },
+  "files": {
+    "enabled": true
+  },
+  "metadata": {
+    "title": "Global 4G Mobile Communications Network Coverage",
+    "subject": [
+      {
+        "subject": "Global system for mobile communications"
+      },
+      {
+        "subject": "Utilities and Communication"
+      },
+      {
+        "subject": "Cell phone services industry"
+      }
+    ],
+    "geoLocations": [
+      {
+        "geoLocationPlace": "Earth"
+      }
+    ],
+    "resource_type": { "id": "dataset" },
+    "Language": [
+      "eng"
+    ],
+    "publication_date": "2014",
+    "identifiers": [
+      {
+        "identifier": "http://hdl.handle.net/2451/34473",
+        "scheme": "handle"
+      },
+      {
+        "identifier": "http://hdl.handle.net/2451/34476",
+        "scheme": "handle"
+      },
+      {
+        "identifier": "http://hdl.handle.net/2451/34479",
+        "scheme": "handle"
+      },
+      {
+        "identifier": "http://hdl.handle.net/2451/34482",
+        "scheme": "handle"
+      },
+      {
+        "identifier": "http://hdl.handle.net/2451/34485",
+        "scheme": "handle"
+      },
+      {
+        "identifier": "http://hdl.handle.net/2451/34488",
+        "scheme": "handle"
+      }
+    ],
+    "description": "This polygon shapefile is a representation of the coverage area for 4G mobile communications networks around the world from 2011 to 2014. The data is created from submissions made directly to Collins Bartholomew or the GSMA from mobile operators, which provide roaming detail for inclusion in the online mapping application known as Collins Mobile Coverage Web. Polygons representing the network coverage have been split into country areas using the country polygons from the Collins World Explorer vector product. Polygons are supplied as multipart, and include any country ISO or FIPS codes where known. The data is supplied with a nominal resolution of approximately 1km on the ground. This map can be used to locate and analyze mobile communications coverage on a global scale.",
+    "creator": [
+      {
+        "person_or_org": {
+          "name": "Collins Bartholomew Ltd",
+          "type": "organizational",
+          "identifiers": [{
+        "scheme": "isni",
+        "identifier": "0000 0001 2216 379X"
+      }]
+        }
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2014",
+        "dateType": "Issued"
+      },
+      {
+        "date": "2011/2014",
+        "dateType": "Coverage",
+        "dateInformation": "2011–2014"
+      }
+    ],
+    "rights": [
+      {
+        "title": {"en": "License Held by Publisher"}
+      }
+    ],
+    "custom_fields": {
+      "geospatial:resource_type": {
+        "id": "polygon-data"
+      },
+      "geoserver": {
+        "layer": [
+          "sdr:nyu_2451_34473"
+        ],
+        "bounds": "ENVELOPE(-135.373169, 178.145985, 69.664816, -46.186684)",
+        "has_wms": true,
+        "has_wfs": true
+      }
+    }
+  }
+}

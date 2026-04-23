@@ -1,0 +1,203 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "United Arab Emirates Open Data",
+    "publication_date": "2018",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "United Arab Emirates Government",
+          "type": "organizational",
+          "scheme":"isni",
+          "identifier":"0000 0004 1764 1904"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "United Arab Emirates Ministry of Climate Change and Environment",
+          "type": "organizational",
+          "scheme":"isni",
+          "identifier":"0000 0004 7650 0861"
+        }
+      }
+    ],
+    "geoLocations": [
+      {
+        "geoLocationPlace": "United Arab Emirates"
+      },
+      {
+        "geoLocationPlace": "Dubai, United Arab Emirates"
+      }
+    ],
+    "description": "This collection brings together 59 geospatial datasets covering a wide range of thematic areas across the United Arab Emirates, assembled from two distinct bodies of open government data. The first group (nyu_2451_42142–42166) consists of 25 datasets sourced from Bayanat.ae, the UAE's national open data portal, encompassing transit infrastructure for the city of Dubai (marine waterbus, metro, and tram stations), emirate-level statistics on agriculture, livestock, social welfare expenditure, traffic accidents by type and vehicle, and municipal waste management for years spanning 2001–2017. The second group (nyu_2451_44222–44255) consists of 34 datasets originally collected and hosted by the United Arab Emirates Ministry of Climate Change and Environment (MOCCAE), accessed in December 2018 from the MOCCAE's ArcGIS REST services directory. These datasets document the UAE's natural and built environment, including protected land and sea areas, mangrove and forested zones, coral reefs, important bird areas, wildlife habitats, archaeological sites, diverse farming operations (commercial, organic, hydroponic, and fish farms), fruit and vegetable collection centers, water infrastructure (dams, reservoirs, wells, pumps, and boosters), quarries, cement factories, and ecotourism and natural sites. Together, the datasets support research on UAE governance, environment, land use, transportation, agriculture, and economic development.",
+    "publisher": "United Arab Emirates Government",
+    "subjects": [
+      { "subject": "Urban transportation" },
+      { "subject": "Transportation" },
+      { "subject": "Water transfer" },
+      { "subject": "local transit" },
+      { "subject": "Railroad stations" },
+      { "subject": "Agriculture" },
+      { "subject": "Farms" },
+      { "subject": "Farmland" },
+      { "subject": "Land use" },
+      { "subject": "Customer services" },
+      { "subject": "Climate change" },
+      { "subject": "Environment" },
+      { "subject": "Welfare and society" },
+      { "subject": "Public investments" },
+      { "subject": "Economic assistance, Emirati" },
+      { "subject": "Human capital" },
+      { "subject": "Employment" },
+      { "subject": "Traffic safety and wildlife" },
+      { "subject": "Traffic accidents" },
+      { "subject": "Automobiles--Collision damage" },
+      { "subject": "Traffic accident investigation" },
+      { "subject": "Livestock" },
+      { "subject": "Waste control" },
+      { "subject": "Refuse and refuse disposal" },
+      { "subject": "Agricultural administration--Arab countries" },
+      { "subject": "Agricultural Sites" },
+      { "subject": "Habitat (Ecology)" },
+      { "subject": "Ecological districts" },
+      { "subject": "Protected areas" },
+      { "subject": "Groundwater" },
+      { "subject": "Water" },
+      { "subject": "Manufacturing industries" },
+      { "subject": "Reefs" },
+      { "subject": "Marine ecological regions" },
+      { "subject": "Seas" },
+      { "subject": "Dams" },
+      { "subject": "Recreation areas" },
+      { "subject": "Coasts" },
+      { "subject": "Coastwise navigation" },
+      { "subject": "Wilderness areas" },
+      { "subject": "Tourism--United Arab Emirates" },
+      { "subject": "Power generation sites" },
+      { "subject": "Food Animals" },
+      { "subject": "Food" },
+      { "subject": "Food supply--Arab countries" },
+      { "subject": "Forests and forestry" },
+      { "subject": "Trees" },
+      { "subject": "Plantations" },
+      { "subject": "Vegetation mapping" },
+      { "subject": "Vegetation classification" },
+      { "subject": "Urban planning and environment" },
+      { "subject": "Wetlands" },
+      { "subject": "Museums" },
+      { "subject": "Culture and tourism" },
+      { "subject": "Nature" },
+      { "subject": "Farming" },
+      { "subject": "Mines and mineral resources" },
+      { "subject": "Reservoirs" },
+      { "subject": "Wells" },
+      { "subject": "Human settlements" },
+      { "subject": "Archaeological Sites" }
+    ],
+    "languages": [
+      { "id": "eng" },
+      { "id": "ara" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2018",
+        "type": { "id": "issued" }
+      },
+      {
+        "date": "2001/2018",
+        "type": { "id": "coverage" },
+        "description": "temporal coverage spans 2001–2017 for emirate-level statistics (nyu_2451_42145–42166) and 2018 for MOCCAE environmental datasets (nyu_2451_44222–44255)"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42142" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42143" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42144" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42145" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42146" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42147" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42148" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42149" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42150" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42151" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42152" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42153" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42154" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42155" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42156" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42157" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42158" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42159" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42160" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42161" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42162" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42163" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42164" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42165" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42166" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44222" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44223" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44224" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44225" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44226" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44227" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44228" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44229" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44230" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44231" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44232" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44233" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44234" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44235" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44236" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44237" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44238" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44239" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44240" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44241" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44242" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44243" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44244" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44245" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44246" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44247" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44248" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44249" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44250" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44251" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44252" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44253" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44254" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/44255" }
+    ],
+    "rights": [
+      {
+        "title": { "en": "License Held by Publisher" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "point-data"
+    },
+    "geoserver": {
+      "layer": [
+        "sdr:nyu_2451_42142"
+      ],
+      "bounds": "ENVELOPE(51.436528, 56.488472, 26.084159851074, 22.631621)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}
