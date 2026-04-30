@@ -20,13 +20,15 @@
       }
       
     ],
-    "geoLocations": [
-  {
-    "geoLocationPlace": "New York (State)--New York"
-  }
-],
+    "locations": {
+      "features": [
+        {
+          "place": "New York (State)--New York"
+        }
+      ]
+    },
     "resource_type": { "id": "dataset" },
-    "Language": [
+    "language": [
       "eng"
     ],
     "identifiers": [
@@ -260,7 +262,7 @@
   }
 ],
     "description": "This dataset consists of point shapefile layers representing real property tax parcels for all counties in New York State for the year 2004. Each point represents the visual center of a parcel as recorded on local tax maps. The associated attribute data—including property ownership, assessed land value, and taxation status—was derived from municipal assessment rolls submitted annually under Article 15 of the Real Property Tax Law to the Office of Real Property Services (ORPS). These data were standardized and stored in a central database for the purpose of calculating equalization rates.",
-    "creator": [{
+    "creators": [{
     "person_or_org": {
       "name": "New York (State). Department of Taxation and Finance",
       "type": "organizational"
@@ -283,9 +285,8 @@
         "id": "point-data"
       },
       "geoserver": {
-        "layer": [
-          "sdr:nyu_2451_42698"
-],
+        "layer":"sdr:nyu_2451_42698"
+,
         "bounds": "ENVELOPE(-79.762152, -72.135189, 45.010025, 40.574608)",
         "has_wms": true,
         "has_wfs": true
