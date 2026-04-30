@@ -16,8 +16,8 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
-        pip install pyenv
-        pyenv install
+        pip install pipenv
+        pipenv install
     - name: Validate JSON records
       run: |
         for file in records/combined/*.json; do
