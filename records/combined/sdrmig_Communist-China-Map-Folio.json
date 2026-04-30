@@ -76,9 +76,7 @@
       "id": "raster-data"
     },
     "geoserver": {
-      "layer": [
-        "sdr:nyu_2451_36737"
-      ],
+      "layer": "sdr:nyu_2451_36737",
       "bounds": "ENVELOPE(73.557693, 134.773911, 53.56086, 10.175472)",
       "has_wms": true,
       "has_wfs": false

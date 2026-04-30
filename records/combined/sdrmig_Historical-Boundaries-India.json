@@ -78,9 +78,7 @@
       "id": "polygon-data"
     },
     "geoserver": {
-      "layer": [
-        "sdr:nyu_2451_34307"
-      ],
+      "layer": "sdr:nyu_2451_34307",
       "bounds": "ENVELOPE(68.110092, 97.409103, 37.050301, 6.755698)",
       "has_wms": true,
       "has_wfs": true
