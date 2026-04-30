@@ -31,14 +31,16 @@
         }
       }
     ],
-    "geoLocations": [
-      {
-        "geoLocationPlace": "United Arab Emirates"
-      },
-      {
-        "geoLocationPlace": "Dubai, United Arab Emirates"
-      }
-    ],
+    "locations": {
+      "features": [
+        {
+          "place": "United Arab Emirates"
+        },
+        {
+          "place": "Dubai, United Arab Emirates"
+        }
+      ]
+    },
     "description": "This collection brings together 59 geospatial datasets covering a wide range of thematic areas across the United Arab Emirates, assembled from two distinct bodies of open government data. The first group (nyu_2451_42142–42166) consists of 25 datasets sourced from Bayanat.ae, the UAE's national open data portal, encompassing transit infrastructure for the city of Dubai (marine waterbus, metro, and tram stations), emirate-level statistics on agriculture, livestock, social welfare expenditure, traffic accidents by type and vehicle, and municipal waste management for years spanning 2001–2017. The second group (nyu_2451_44222–44255) consists of 34 datasets originally collected and hosted by the United Arab Emirates Ministry of Climate Change and Environment (MOCCAE), accessed in December 2018 from the MOCCAE's ArcGIS REST services directory. These datasets document the UAE's natural and built environment, including protected land and sea areas, mangrove and forested zones, coral reefs, important bird areas, wildlife habitats, archaeological sites, diverse farming operations (commercial, organic, hydroponic, and fish farms), fruit and vegetable collection centers, water infrastructure (dams, reservoirs, wells, pumps, and boosters), quarries, cement factories, and ecotourism and natural sites. Together, the datasets support research on UAE governance, environment, land use, transportation, agriculture, and economic development.",
     "publisher": "United Arab Emirates Government",
     "subjects": [

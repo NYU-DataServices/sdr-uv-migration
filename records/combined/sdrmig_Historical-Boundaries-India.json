@@ -21,11 +21,13 @@
         }
       }
     ],
-    "geoLocations": [
-      {
-        "geoLocationPlace": "India"
-      }
-    ],
+    "locations": {
+      "features": [
+        {
+          "place": "India"
+        }
+      ]
+    },
     "description": "This collection consists of eight polygon shapefile layers representing multi-level administrative boundaries of India for the 1991 and 2001 Census years, produced by ML InfoMap. For each Census year, the collection includes boundaries at four administrative levels: block, sub-district (Tahsil/Taluka), district, and state. Each layer includes socio-demographic Census attribute data such as total population, population by sex, literacy rates, sex ratio, and rural/urban populations sourced from secondary government sources including the Survey of India, Census of India, and the Election Commission. The 1991 layers cover 466 districts across 25 states and 7 union territories; the 2001 state layer covers 28 states. The 2001 sub-district layer additionally includes household, literacy, and employment statistics. This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for multi-level demographic analysis within basic applications to support graphical overlays and analysis with other spatial data.",
     "publisher": "ML InfoMap (Firm)",
     "subjects": [
