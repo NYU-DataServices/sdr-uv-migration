@@ -25,5 +25,5 @@ jobs:
     - name: Validate JSON records
       run: |
         for file in records/combined/*.json; do
-          pipenv run python lib/validate_json.py "$file"
+          pipenv run python lib/validate.py "$file"
         done
