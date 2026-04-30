@@ -1,7 +1,7 @@
 {
   "access": {
-    "record": "public"
-    "files": "restricted",
+    "record": "public",
+    "files": "restricted"
   },
   "files": {
     "enabled": true
@@ -275,7 +275,7 @@
     "dates": [
       {
         "date": "2004",
-        "dateType": "Coverage"
+        "type": "Coverage"
       }
     ],
     "custom_fields": {
@@ -283,9 +283,13 @@
         "id": "point-data"
       },
       "geoserver": {
+<<<<<<< Updated upstream
         "layer": [
           "sdr:nyu_2451_42698"
 ],
+=======
+        "layer":"sdr:nyu_2451_42698",
+>>>>>>> Stashed changes
         "bounds": "ENVELOPE(-79.762152, -72.135189, 45.010025, 40.574608)",
         "has_wms": true,
         "has_wfs": true

@@ -79,9 +79,7 @@
       "id": "point-data"
     },
     "geoserver": {
-      "layer": [
-        "sdr:nyu_2451_34194"
-      ],
+      "layer":"sdr:nyu_2451_34194,
       "bounds": "ENVELOPE(-74.013008, -58.3691343245, 41.31022605, -34.662196)",
       "has_wms": true,
       "has_wfs": true
