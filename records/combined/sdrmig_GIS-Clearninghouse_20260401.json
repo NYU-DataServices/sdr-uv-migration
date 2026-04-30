@@ -279,8 +279,10 @@
         "date": "2004",
         "type": "Coverage"
       }
-    ],
-    "custom_fields": {
+    ]
+    
+  },
+  "custom_fields": {
       "geospatial:resource_type": {
         "id": "point-data"
       },
@@ -291,5 +293,4 @@
         "has_wfs": true
       }
     }
-  }
 }
