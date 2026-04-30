@@ -22,14 +22,16 @@
         }
       }
     ],
-    "geoLocations": [
-      {
-        "geoLocationPlace": "New York City, New York, United States"
-      },
-      {
-        "geoLocationPlace": "New York-Northern New Jersey-Long Island, New York, United States"
-      }
-    ],
+    "locations": {
+      "features": [
+        {
+          "place": "New York City, New York, United States"
+        },
+        {
+          "place": "New York-Northern New Jersey-Long Island, New York, United States"
+        }
+      ]
+    },
     "description": "This collection consists of 32 point and line shapefile layers representing mass transit infrastructure in the New York City metropolitan area, created by the GIS Lab at the Newman Library, Baruch College, CUNY as part of the NYC Mass Transit Spatial Layers series. The collection provides well-documented and readily-usable GIS layers of NYC mass transit features at two main vintages: a May 2016 set (nyu_2451_34689–34699, 34753–34760) and an updated 2017–2019 set (nyu_2451_60058–60070). Layers were derived from GTFS data feeds published by the Metropolitan Transportation Authority (MTA) and from NJ Transit and NJ Office of GIS sources. Coverage includes local and express bus routes and stops (by borough for the 2016 layers; citywide for the 2019 layers), Long Island Rail Road routes and stops, Metro-North Railroad routes, stops, and Bronx shuttle bus stops, New York City Subway routes, stops, and station entrances, and Port Authority Trans-Hudson (PATH) train routes and stops. Python scripts were used to process the input data and save each layer in the local state plane coordinate reference system. This dataset is intended for researchers, policy makers, students, and educators for basic geographic analysis and mapping purposes. An ISO/TC 211 document in XML format is available within each zip file to provide further documentation about the layers.",
     "publisher": "Newman Library (Bernard M. Baruch College)",
     "subjects": [

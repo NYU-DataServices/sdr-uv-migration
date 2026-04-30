@@ -23,11 +23,13 @@
         }
       }
     ],
-    "geoLocations": [
-      {
-        "geoLocationPlace": "Abu Dhabi, United Arab Emirates"
-      }
-    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Abu Dhabi, United Arab Emirates"
+        }
+      ]
+    },
     "description": "This collection brings together 20 point shapefile layers representing various community facilities and infrastructure in the Emirate of Abu Dhabi, United Arab Emirates. The datasets were produced as part of the Abu Dhabi Urban Planning Council (UPC) project survey conducted during the 2010–2011 period for planning new community facilities, and were hosted in the Abu Dhabi Geoportal—a platform that aggregates geographic information from government, commercial, and noncommercial organizations, including map images, map services, geographic datasets, clearinghouses, and land references. The collection encompasses a wide range of facility types, including commercial properties managed by Abu Dhabi Commercial Properties (ADCP), sea navigation buoys, commercial farms, cultural facilities such as libraries and museums, food supply establishments, government department offices, health centers, health clinics, higher education institutes, hospitals, hotel apartments, hotels, AWQAF-operated mosques, pharmaceutical entities, polyclinics, private and public schools, health service provision points, tourism kiosks, and licensed trading establishments. Most datasets represent conditions as of 2010; three datasets—higher education institutes, private schools, and public schools—reflect data from the 2005 Census carried out by the Statistics Centre Abu Dhabi.",
     "publisher": "Abu Dhabi Government",
     "subjects": [

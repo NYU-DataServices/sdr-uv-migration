@@ -19,14 +19,16 @@
         "subject": "Cell phone services industry"
       }
     ],
-    "geoLocations": [
-      {
-        "geoLocationPlace": "Earth"
-      }
-    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Earth"
+        }
+      ]
+    },
     "resource_type": { "id": "dataset" },
-    "Language": [
-      "eng"
+    "language": [
+      {"id": "eng"}
     ],
     "publication_date": "2014",
 
@@ -75,8 +77,8 @@
           "name": "Collins Bartholomew Ltd",
           "type": "organizational",
           "identifiers": [{
-        "scheme": "isni",
-        "identifier": "0000 0001 2216 379X"
+            "scheme": "isni",
+            "identifier": "0000 0001 2216 379X"
       }]
         }
       }

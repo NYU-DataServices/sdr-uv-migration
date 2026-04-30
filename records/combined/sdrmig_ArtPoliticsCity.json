@@ -1,6 +1,6 @@
 {
   "access": {
-    "record": "public",
+    "record": "restricted",
     "files": "restricted"
   },
   "files": {
@@ -27,14 +27,16 @@
       }
     ],
     "version": "v1",
-    "geoLocations": [
-      {
-        "geoLocationPlace": "Buenos Aires, Buenos Aires F.D., Argentina"
-      },
-      {
-        "geoLocationPlace": "New York, New York, United States"
-      }
-    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Buenos Aires, Buenos Aires F.D., Argentina"
+        },
+        {
+          "place": "New York, New York, United States"
+        }
+      ]
+    },
     "description": "This collection consists of three datasets produced for the Art and Politics in the City course at New York University during 2015–2016. It includes beat boundary polygon layers for Buenos Aires and New York City—informally designated study areas assigned by course instructors that do not correspond to any established political boundaries or administrative divisions—within which students collected images and attribute information about graffiti and urban spaces. The collection also includes a comprehensive point layer representing all graffiti and street art locations recorded by students across three semesters in both cities using FulcrumApp. The point data includes place notes, descriptions, art category classifications, and photos. A documentation file is available with the archival copy of the data.",
     "publisher": "New York University",
     "subjects": [

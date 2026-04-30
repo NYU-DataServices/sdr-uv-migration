@@ -21,14 +21,16 @@
         }
       }
     ],
-    "geoLocations": [
-      {
-        "geoLocationPlace": "New York City, New York, United States"
-      },
-      {
-        "geoLocationPlace": "New York-Northern New Jersey-Long Island, New York, United States"
-      }
-    ],
+    "locations": {
+      "features": [
+        {
+          "place": "New York City, New York, United States"
+        },
+        {
+          "place": "New York-Northern New Jersey-Long Island, New York, United States"
+        }
+      ]
+    },
     "description": "This collection consists of 26 individual spatial layers and two consolidated geodatabases comprising the NYC Geodatabase (nyc_gdb, version January 2016), a resource designed for basic geographic analysis and thematic mapping within the five boroughs of New York City, created by the GIS Lab at the Newman Library, Baruch College, CUNY. The layers were compiled from public sources including the NYC Department of City Planning, NYC Open Data, the U.S. Census Bureau, and various city agencies. Coverage includes administrative boundaries (boroughs, census tracts, ZIP Code Tabulation Areas, Public Use Microdata Areas, and metropolitan area counties), physical geography (coastal water, rivers, lakes, reservoirs, greenspace, and landmarks), transportation infrastructure (roads, subway stations and complexes, train stations, and PATH stations with ridership data), and public facilities (public and private schools, hospitals, public libraries, colleges and universities, and large public facilities such as airports and correctional facilities). The collection also includes two consolidated geodatabases—an open-source SQLite version (nyu_2451_34635) and an ArcGIS version (nyu_2451_34636)—that bundle all layers along with related Census tabular data from the 2010 Census and American Community Survey. This dataset is intended for researchers, students, policy makers, and educators for reference and basic geographic analysis and mapping purposes.",
     "publisher": "Newman Library (Bernard M. Baruch College)",
     "subjects": [

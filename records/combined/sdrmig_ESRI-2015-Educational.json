@@ -25,11 +25,13 @@
   }
 ],
     "version": "v1",
-    "geoLocations": [
-  {
-    "geoLocationPlace": "United States of America"
-  }
-],
+    "locations": {
+      "features": [
+        {
+          "place": "United States of America"
+        }
+      ]
+    },
     "description": "This collection brings together ESRI 2015 Educational Data for the United States. It includes the 2009-2013 American Community Survey geodatabase, updated demographic data, consumer spending data, the ESRI Tapestry geodatabase, and Tapestry Market Segmentation data distributed across multiple geographic levels, including the United States, states, counties, county subdivisions, census tracts, block groups, ZIP codes, congressional districts, core-based statistical areas, designated market areas, and census designated places. Together, these datasets support research and teaching on population, households, education, income, race, consumer behavior, and market segmentation.",
     "publisher": "Environmental Systems Research Institute (Redlands, Calif.)",
     "subjects": [
