@@ -277,7 +277,8 @@
     "dates": [
       {
         "date": "2004",
-        "type": "Coverage"
+        "type": { "id": "other" },
+        "description": "collection coverage years"
       }
     ]
     
