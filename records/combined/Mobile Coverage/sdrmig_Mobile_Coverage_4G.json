@@ -8,7 +8,7 @@
   },
   "metadata": {
     "title": "Global 4G Mobile Communications Network Coverage",
-    "subject": [
+    "subjects": [
       {
         "subject": "Global system for mobile communications"
       },
@@ -86,8 +86,9 @@
       {
         "title": {"en": "License Held by Publisher"}
       }
-    ],
-    "custom_fields": {
+    ]
+  },
+  "custom_fields": {
       "geospatial:resource_type": {
         "id": "polygon-data"
       },
@@ -98,5 +99,4 @@
         "has_wfs": true
       }
     }
-  }
 }
