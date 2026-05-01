@@ -60,7 +60,7 @@
       },
       {
         "date": "2015/2016",
-        "type": { "id": "coverage" },
+        "type": { "id": "other" },
         "description": "collection coverage years"
       }
     ],
