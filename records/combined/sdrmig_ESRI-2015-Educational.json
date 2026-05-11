@@ -53,7 +53,7 @@
       },
       {
         "date": "2015",
-        "type": { "id": "coverage" },
+        "type": { "id": "other" },
         "description": "collection coverage year"
       }
     ],

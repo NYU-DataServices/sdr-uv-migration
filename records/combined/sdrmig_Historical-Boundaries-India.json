@@ -53,8 +53,8 @@
       },
       {
         "date": "1991/2001",
-        "type": { "id": "coverage" },
-        "description": "block, sub-district, district, and state boundary layers for the 1991 and 2001 Census years"
+        "type": { "id": "other" },
+        "description": "Coverage years of the colleciton. Block, sub-district, district, and state boundary layers for the 1991 and 2001 Census years"
       }
     ],
     "identifiers": [

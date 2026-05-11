@@ -54,7 +54,7 @@
       },
       {
         "date": "1967",
-        "type": { "id": "coverage" },
+        "type": { "id": "other" },
         "description": "collection coverage year"
       }
     ],

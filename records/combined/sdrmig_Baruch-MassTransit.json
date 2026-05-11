@@ -56,11 +56,11 @@
         "type": { "id": "issued" }
       },
       {
-        "date": "2016/2019",
-        "type": { "id": "coverage" },
-        "description": "May 2016 layers (nyu_2451_34689–34760) and updated 2017–2019 layers (nyu_2451_60058–60070)"
-      }
-    ],
+      "date": "2016/2019",
+      "type": { "id": "other" },
+      "description": "Coverage years of the collection"
+    }
+  ],
     "identifiers": [
       { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34689" },
       { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34690" },

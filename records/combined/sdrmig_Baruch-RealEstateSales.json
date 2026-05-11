@@ -46,8 +46,8 @@
       },
       {
         "date": "2003/2018",
-        "type": { "id": "coverage" },
-        "description": "annual real estate sales layers for each year 2003–2018"
+        "type": { "id": "other" },
+        "description": "Coverage years of the collection. Annual real estate sales layers for each year 2003–2018"
       }
     ],
     "identifiers": [
