@@ -50,7 +50,7 @@
       },
       {
         "date": "1951/2011",
-        "type": { "id": "coverage" },
+        "type": { "id": "other" },
         "description": "decadal district boundary layers spanning Census years 1951, 1961, 1971, 1981, 1991, 2001, and 2011"
       }
     ],
