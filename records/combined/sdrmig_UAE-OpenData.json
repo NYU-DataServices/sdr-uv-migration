@@ -14,23 +14,31 @@
       "id": "dataset"
     },
     "creators": [
-      {
-        "person_or_org": {
-          "name": "United Arab Emirates Government",
-          "type": "organizational",
-          "scheme":"isni",
-          "identifier":"0000 0004 1764 1904"
+  {
+    "person_or_org": {
+      "name": "United Arab Emirates Government",
+      "type": "organizational",
+      "identifiers": [
+        { 
+          "scheme": "isni", 
+          "identifier": "0000 0004 1764 1904" 
         }
-      },
-      {
-        "person_or_org": {
-          "name": "United Arab Emirates Ministry of Climate Change and Environment",
-          "type": "organizational",
-          "scheme":"isni",
-          "identifier":"0000 0004 7650 0861"
+      ]
+    }
+  },
+  {
+    "person_or_org": {
+      "name": "United Arab Emirates Ministry of Climate Change and Environment",
+      "type": "organizational",
+      "identifiers": [
+        { 
+          "scheme": "isni", 
+          "identifier": "0000 0004 7650 0861" 
         }
-      }
-    ],
+      ]
+    }
+  }
+],
     "locations": {
       "features": [
         {
