@@ -44,17 +44,50 @@
     "description": "This collection brings together 59 geospatial datasets covering a wide range of thematic areas across the United Arab Emirates, assembled from two distinct bodies of open government data. The first group (nyu_2451_42142–42166) consists of 25 datasets sourced from Bayanat.ae, the UAE's national open data portal, encompassing transit infrastructure for the city of Dubai (marine waterbus, metro, and tram stations), emirate-level statistics on agriculture, livestock, social welfare expenditure, traffic accidents by type and vehicle, and municipal waste management for years spanning 2001–2017. The second group (nyu_2451_44222–44255) consists of 34 datasets originally collected and hosted by the United Arab Emirates Ministry of Climate Change and Environment (MOCCAE), accessed in December 2018 from the MOCCAE's ArcGIS REST services directory. These datasets document the UAE's natural and built environment, including protected land and sea areas, mangrove and forested zones, coral reefs, important bird areas, wildlife habitats, archaeological sites, diverse farming operations (commercial, organic, hydroponic, and fish farms), fruit and vegetable collection centers, water infrastructure (dams, reservoirs, wells, pumps, and boosters), quarries, cement factories, and ecotourism and natural sites. Together, the datasets support research on UAE governance, environment, land use, transportation, agriculture, and economic development.",
     "publisher": "United Arab Emirates Government",
     "subjects": [
-      { "id": "http://id.loc.gov/authorities/subjects/sh85137027" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh85002415" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh85136773" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh85145648" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh85050339" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh85050707" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh85044203" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh85026282" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh85040837" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh85006278" },
-      { "id": "http://id.loc.gov/authorities/subjects/sh86005347" }
+      {
+        "subject": "Transportation",
+        "id": "http://id.loc.gov/authorities/subjects/sh85137027"
+      },
+      {
+        "subject": "Agriculture",
+        "id": "http://id.loc.gov/authorities/subjects/sh85002415"
+      },
+      {
+        "subject": "Traffic regulations",
+        "id": "http://id.loc.gov/authorities/subjects/sh85136773"
+      },
+      {
+        "subject": "Water-supply",
+        "id": "http://id.loc.gov/authorities/subjects/sh85145648"
+      },
+      {
+        "subject": "Food supply",
+        "id": "http://id.loc.gov/authorities/subjects/sh85050339"
+      },
+      {
+        "subject": "Forests and forestry",
+        "id": "http://id.loc.gov/authorities/subjects/sh85050707"
+      },
+      {
+        "subject": "Environmental protection",
+        "id": "http://id.loc.gov/authorities/subjects/sh85044203"
+      },
+      {
+        "subject": "City planning",
+        "id": "http://id.loc.gov/authorities/subjects/sh85026282"
+      },
+      {
+        "subject": "Economic policy",
+        "id": "http://id.loc.gov/authorities/subjects/sh85040837"
+      },
+      {
+        "subject": "Arab countries",
+        "id": "http://id.loc.gov/authorities/subjects/sh85006278"
+      },
+      {
+        "subject": "Economic assistance, Emirati",
+        "id": "http://id.loc.gov/authorities/subjects/sh86005347"
+      }
     ],
     "languages": [
       { "id": "eng" },

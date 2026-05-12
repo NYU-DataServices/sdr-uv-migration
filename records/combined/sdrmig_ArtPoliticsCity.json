@@ -1,6 +1,6 @@
 {
   "access": {
-    "record": "restricted",
+    "record": "public",
     "files": "restricted"
   },
   "files": {
