@@ -1,0 +1,94 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "LandScan Global Population Database, 2000-2017",
+    "publication_date": "2001/2018",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Oak Ridge National Laboratory",
+          "type": "organizational",
+          "scheme":"isni",
+          "identifier": "0000 0004 0446 2659"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Earth"
+        }
+      ]
+    },
+    "description": "This collection comprises 18 annual editions of the LandScan Global Population Database, covering population reference years 2000 through 2017, developed by Oak Ridge National Laboratory for the U.S. Department of Defense. Each edition is a raster dataset in ArcGRID format containing population counts at 30 arc-second resolution (approximately 1 km) for a given year. LandScan integrates daytime movements and collective travel habits into a single ambient population measure — an average over 24 hours — representing where people are located during an average day rather than solely at night. The LandScan algorithm uses GIS and remote sensing technologies with a multi-variable dasymetric modeling approach to disaggregate census counts within administrative boundaries. LandScan is the community standard for global population distribution at fine resolution, supporting quick assessment, estimation, and visualization of populations-at-risk. For current documentation and methodology, see https://landscan.ornl.gov/documentation/.",
+    "publisher": "Oak Ridge National Laboratory",
+    "subjects": [
+      { "subject": "Population" },
+      { "subject": "Population geography" },
+      { "subject": "Human geography" },
+      { "subject": "Society" }
+    ],
+    "languages": [
+      { "id": "eng" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2001/2018",
+        "type": { "id": "issued" },
+        "description": "annual editions published 2001 (for year 2000) through 2018 (for year 2017)"
+      },
+      {
+        "date": "2000/2017",
+        "type": { "id": "other" },
+        "description": "population reference years covered"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43665" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43666" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43667" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43668" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43669" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43670" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43671" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43672" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43673" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43674" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43675" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43676" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43677" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43678" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43679" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43680" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43681" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43682" }
+    ],
+    "rights": [
+      {
+        "title": { "en": "License Held by Publisher" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "raster-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_43665",
+      "bounds": "ENVELOPE(-180.0, 180.0, 90.0, -90.0)",
+      "has_wms": false,
+      "has_wfs": false
+    }
+  }
+}

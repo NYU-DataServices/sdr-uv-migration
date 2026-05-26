@@ -1,0 +1,82 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "1949 Gulf Cooperation Council Region Tribal Map",
+    "publication_date": "2018",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "given_name": "Maitha Salem",
+          "family_name": "AlMemari",
+          "type": "personal"
+        }
+      },
+      {
+        "person_or_org": {
+          "given_name": "H.R.P.",
+          "family_name": "Dickson",
+          "type": "personal"
+        }
+      }
+    ],
+    "publisher":"New York University Abu Dhabi",
+    "locations": {
+      "features": [
+        {
+          "place": "Middle East"
+        }
+      ]
+    },
+    "description": "This vector layer represents the tribal boundaries in the Gulf Cooperation Council (GCC) region of the Middle East based on a map found in H.R.P. Dickson's 1949 book, The Arab of the Desert. Dickson was a British colonial administrator in the Middle East from the 1920s until the 1940s, and author of several books on Kuwait. The map was recreated in 2018 by an NYU Abu Dhabi student for a course project.",
+    "subjects": [
+      { "subject": "Boundaries" },
+      { "subject": "Tribal government--Arab countries--History" },
+      { "subject": "Historical map" },
+      { "subject": "Families" }
+    ],
+    "languages": [
+      { "id": "eng" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2018",
+        "type": { "id": "issued" }
+      },
+      {
+        "date": "1949",
+        "type": { "id": "other" },
+        "description": "original map publication year"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43452" }
+    ],
+    "rights": [
+      {
+        "title": { "en": "License Held by Publisher" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_43452",
+      "bounds": "ENVELOPE(34.573633, 58.357117, 30.854675, 12.727112)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

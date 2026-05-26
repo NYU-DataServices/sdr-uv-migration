@@ -1,0 +1,106 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Global Navigation and Planning Chart (GNC)",
+    "publication_date": "2016",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "United States. Defense Mapping Agency",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0001 1955 9515"
+
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "World"
+        }
+      ]
+    },
+    "description": "This collection comprises 31 items from the Global Navigation and Planning Chart (GNC) series at a 1:5,000,000 scale: 30 georeferenced raster chart sheets (Sheets 1–26, with Sheets 6, 7, 20, and 21 split into East and West components) and one Shapefile index map serving as a spatial reference for the full sheet series. The series was originally published by the National Geospatial-Intelligence Agency and its predecessor organizations, including the Defense Mapping Agency and the National Imagery and Mapping Agency. All sheets are in English and project to Lambert Conformal Conic. East View Geospatial completed digitization, georeferencing, and electronic archiving services in 2016. The GNC series provides global aeronautical navigation coverage and is part of the EVG Open Data Package.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      { "subject": "Aeronautical charts" },
+      { "subject": "Navigation" },
+      { "subject": "Aeronautics" }
+    ],
+    "languages": [
+      { "id": "eng" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2016",
+        "type": { "id": "issued" }
+      },
+      {
+        "date": "2016",
+        "type": { "id": "other" },
+        "description": "digitization and georeferencing year"
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38715" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38685" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38686" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38687" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38688" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38689" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38690" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38691" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38692" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38693" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38694" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38695" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38696" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38697" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38698" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38699" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38700" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38701" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38702" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38703" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38704" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38705" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38706" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38707" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38708" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38709" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38710" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38711" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38712" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38713" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38714" }
+    ],
+    "rights": [
+      {
+        "title": { "en": "License Held by Publisher" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "raster-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_38715",
+      "bounds": "ENVELOPE(-180.0, 180.0, 90.0, -90.0)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

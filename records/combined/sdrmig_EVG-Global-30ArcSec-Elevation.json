@@ -1,0 +1,103 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Global 30 Arc-Second Elevation (GTOPO30)",
+    "publication_date": "2016",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Geological Survey (U.S.)",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0001 2154 6924"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Earth"
+        }
+      ]
+    },
+    "description": "This collection comprises 34 items from the Global 30 Arc-Second Elevation (GTOPO30) map series: 33 georeferenced raster tiles providing global digital elevation model (DEM) coverage at 30 arc-second resolution (approximately 1 km pixel spacing), and one Shapefile index map (nyu_2451_38716). The United States Geological Survey (USGS) originally published GTOPO30 after deriving content from eight raster and vector sources comprising Digital Terrain Elevation Data, Digital Chart of the World, USGS 1-Degree DEMs, Army Map Service Maps, International Map of the World, Peru Map, New Zealand DEM, and the Antarctic Digital Database. East View Cartographic, Inc. completed data conversion, verification, and electronic archiving services. The sheet naming convention uses cardinal direction and coordinate pairs (e.g., E020N40 indicates the tile with its southwest corner at 20°E, 40°N). This collection is part of the EVG Open Data Package. An alternate version of GTOPO30 is available directly from the USGS at https://lta.cr.usgs.gov/GTOPO30.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      { "subject": "Digital elevation models" },
+      { "subject": "Elevation" },
+      { "subject": "Topographic maps" }
+    ],
+    "languages": [
+      { "id": "eng" }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2016",
+        "type": { "id": "issued" }
+      }
+    ],
+    "identifiers": [
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/38716" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40731" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40732" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40733" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40734" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40735" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40736" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40737" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40738" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40739" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40740" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40741" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40742" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40743" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40744" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40745" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40746" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40747" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40748" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40749" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40750" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40751" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40752" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40753" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40754" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40755" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40756" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40757" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40758" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40759" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40760" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40761" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40762" },
+      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/40763" }
+    ],
+    "rights": [
+      {
+        "title": { "en": "License Held by Publisher" }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "raster-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_38716",
+      "bounds": "ENVELOPE(-180.0, 180.0, 90.0, -90.0)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}
