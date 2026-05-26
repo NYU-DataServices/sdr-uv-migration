@@ -20,6 +20,7 @@
       }
       
     ],
+    "publication_date": "2018-08-24",
     "locations": {
       "features": [
         {
@@ -268,6 +269,7 @@
       "type": "organizational"
     }
   }],
+  "publisher": "Government of New York(State)",
     "rights": [
       {
         "title": {"en": "License Held by Publisher"}
