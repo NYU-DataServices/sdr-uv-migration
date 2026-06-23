@@ -1,0 +1,117 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "VillageMap of India: Village Amenities, Infrastructure, and Socio-Demographic Census Data, 2001",
+    "publication_date": "2013",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "ML InfoMap (Firm)",
+          "type": "organizational"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "India"
+        }
+      ]
+    },
+    "description": "This collection comprises 72 Shapefile datasets from the VillageMap of India series, published by ML InfoMap. For each covered state or territory, the collection includes polygon layers representing village boundaries and point layers representing village amenities and locations, or both. Each layer is linked to Census 2001 data covering total population, population by sex, household characteristics, literacy and illiteracy rates, employment by industry, and village amenities and infrastructure including water pumps, wells, bus services, post offices, and schools. The datasets are sourced from secondary government sources, chiefly the Survey of India, Census of India, and Election Commission. The 72 datasets span 29 states and territories, including Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Orissa, Punjab, Rajasthan, Sikkim, Tamil Nadu, Tripura, Uttar Pradesh (East and West), Uttarakhand, and West Bengal. The data is intended for researchers, students, and policy makers for village-level demographic analysis and reference mapping. Consult the documentation for variable descriptions. The format for data included with this record is predominantly polygon data, but also consists of point data as well.",
+    "publisher": "ML InfoMap (Firm)",
+    "subjects": [
+      {
+        "subject": "Villages"
+      },
+      {
+        "subject": "Human settlements"
+      },
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Demography"
+      },
+      {
+        "subject": "Population"
+      },
+      {
+        "subject": "Housing"
+      },
+      {
+        "subject": "Literacy"
+      },
+      {
+        "subject": "Labor supply"
+      },
+      {
+        "subject": "Caste"
+      },
+      {
+        "subject": "Society"
+      },
+      {
+        "subject": "Boundaries"
+      },
+      {
+        "subject": "Education"
+      },
+      {
+        "subject": "Health"
+      },
+      {
+        "subject": "India--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2013",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2001",
+        "type": {
+          "id": "other"
+        },
+        "description": "census reference year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_34309",
+      "bounds": "ENVELOPE(68.110092, 97.409103, 37.069954, 6.761581)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}
