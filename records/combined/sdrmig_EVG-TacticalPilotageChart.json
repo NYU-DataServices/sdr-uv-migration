@@ -1,0 +1,89 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Tactical Pilotage Chart (TPC)",
+    "publication_date": "2016",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "United States. National Geospatial-Intelligence Agency",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0001 0690 8026"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "World"
+        }
+      ]
+    },
+    "description": "This collection comprises 516 items from the Tactical Pilotage Chart (TPC) series at 1:500,000 scale: 515 georeferenced raster chart sheets and one Shapefile index map serving as a spatial reference for the full sheet series. The series was originally published by the National Geospatial-Intelligence Agency and its predecessor organizations, including the Defense Mapping Agency and the National Imagery and Mapping Agency. The maps are designed for low- to medium-altitude visual and radar navigation, and are also used for operational planning and intelligence briefings. All sheets are in English and project to Lambert Conformal Conic. East View Geospatial completed digitization, georeferencing, and electronic archiving services in 2016. The TPC series provides near-global aeronautical navigation coverage and is part of the EVG Open Data Package. Sheets G11A, H08D, and L13A, identified as nyu_2451_41302, nyu_2451_41345, and nyu_2451_41503, respectively, are provided in Geotiff rather than World Tiff file format. The format for data included with this record is predominantly raster data, but also consists of polygon data as well.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      {
+        "subject": "Aeronautical charts"
+      },
+      {
+        "subject": "Navigation"
+      },
+      {
+        "subject": "Aeronautics"
+      },
+      {
+        "subject": "Military intelligence"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2016",
+        "type": {
+          "id": "other"
+        },
+        "description": "digitization and georeferencing year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "raster-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_41104",
+      "bounds": "ENVELOPE(-180.0, 180.0, 84.0, -56.0)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

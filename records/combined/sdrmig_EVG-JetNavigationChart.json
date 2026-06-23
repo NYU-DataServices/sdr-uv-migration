@@ -8,7 +8,7 @@
   },
   "pids": {},
   "metadata": {
-    "title": "Global Navigation and Planning Chart (GNC)",
+    "title": "Jet Navigation Chart (JNC)",
     "publication_date": "2016",
     "resource_type": {
       "id": "dataset"
@@ -16,10 +16,10 @@
     "creators": [
       {
         "person_or_org": {
-          "name": "United States. Defense Mapping Agency",
+          "name": "United States. National Geospatial-Intelligence Agency",
           "type": "organizational",
           "scheme": "isni",
-          "identifier": "0000 0001 1955 9515"
+          "identifier": "0000 0001 0690 8026"
         }
       }
     ],
@@ -30,7 +30,7 @@
         }
       ]
     },
-    "description": "This collection comprises 31 items from the Global Navigation and Planning Chart (GNC) series at a 1:5,000,000 scale: 30 georeferenced raster chart sheets (Sheets 1–26, with Sheets 6, 7, 20, and 21 split into East and West components) and one Shapefile index map serving as a spatial reference for the full sheet series. The series was originally published by the National Geospatial-Intelligence Agency and its predecessor organizations, including the Defense Mapping Agency and the National Imagery and Mapping Agency. All sheets are in English and project to Lambert Conformal Conic. East View Geospatial completed digitization, georeferencing, and electronic archiving services in 2016. The GNC series provides global aeronautical navigation coverage and is part of the EVG Open Data Package. The format for data included with this record is predominantly raster data, but also consists of polygon data as well.",
+    "description": "This collection comprises 121 items from the Jet Navigation Chart (JNC) series at 1:2,000,000 scale: 120 georeferenced raster chart sheets and one Shapefile index map serving as a spatial reference for the full sheet series. The series contains approximately 111 sheets in total and was originally published by the National Geospatial-Intelligence Agency and its predecessor organizations, including the Defense Mapping Agency and the National Imagery and Mapping Agency. According to the NOAA Central Library, the primary purpose of the Jet Navigation Chart is to support high-altitude computer assisted radar navigation/bombing by strategic aircraft, with information selected to support celestial, radar, and dead reckoning navigation. All sheets are in English and project to Lambert Conformal Conic. East View Cartographic, Inc. completed digitization, georeferencing, and electronic archiving services in 2016. The JNC series is part of the EVG Open Data Package. The format for data included with this record is predominantly raster data, but also consists of polygon data as well.",
     "publisher": "East View Cartographic, Inc.",
     "subjects": [
       {
@@ -41,6 +41,9 @@
       },
       {
         "subject": "Aeronautics"
+      },
+      {
+        "subject": "Military intelligence"
       }
     ],
     "languages": [
@@ -77,7 +80,7 @@
       "id": "raster-data"
     },
     "geoserver": {
-      "layer": "sdr:nyu_2451_38715",
+      "layer": "sdr:nyu_2451_40764",
       "bounds": "ENVELOPE(-180.0, 180.0, 90.0, -90.0)",
       "has_wms": true,
       "has_wfs": true

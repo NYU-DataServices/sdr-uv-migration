@@ -19,7 +19,7 @@
           "name": "Beijing Hua tong ren shi chang xin xi you xian ze ren gong si",
           "type": "organizational",
           "scheme": "isni",
-          "identifier":"0000 0000 8749 3338"
+          "identifier": "0000 0000 8749 3338"
         }
       }
     ],
@@ -30,50 +30,66 @@
         }
       ]
     },
-    "description": "This collection comprises ten geospatial datasets documenting China's physical geography, administrative boundaries, transportation infrastructure, and demographic characteristics as of 2010, assembled from the China Data Center Township Census Files. Administrative layers include county boundaries, province boundaries, and coastlines and islands. Transportation layers cover township-level rail routes, state roads, highways, and provincial trunk roads. Hydrological layers include the main rivers of China as both polygon and line features. A census layer provides township-level population point data drawn from the 2010 China Census. Source data for most transportation and boundary layers originates from the National Geomatic Center of China (NGCC) and was compiled by Beijing Hua tong ren shi chang xin xi you xian ze ren gong si. All datasets are in Shapefile format and support research on China's administrative geography, transportation networks, hydrology, and census demography.",
+    "description": "This collection comprises ten geospatial datasets documenting China's physical geography, administrative boundaries, transportation infrastructure, and demographic characteristics as of 2010, assembled from the China Data Center Township Census Files. Administrative layers include county boundaries, province boundaries, and coastlines and islands. Transportation layers cover township-level rail routes, state roads, highways, and provincial trunk roads. Hydrological layers include the main rivers of China as both polygon and line features. A census layer provides township-level population point data drawn from the 2010 China Census. Source data for most transportation and boundary layers originates from the National Geomatic Center of China (NGCC) and was compiled by Beijing Hua tong ren shi chang xin xi you xian ze ren gong si. All datasets are in Shapefile format and support research on China's administrative geography, transportation networks, hydrology, and census demography. The format for data included with this record is predominantly line data, but also consists of polygon and point data as well.",
     "publisher": "Beijing Hua tong ren shi chang xin xi you xian ze ren gong si",
     "subjects": [
-      { "subject": "Railroads--China" },
-      { "subject": "Transportation--China" },
-      { "subject": "Roads--China" },
-      { "subject": "China--Boundaries" },
-      { "subject": "Islands--China" },
-      { "subject": "Rivers--China" },
-      { "subject": "Population" },
-      { "subject": "Demographic surveys" },
-      { "subject": "Census" },
-      { "subject": "China--Maps" }
+      {
+        "subject": "Railroads--China"
+      },
+      {
+        "subject": "Transportation--China"
+      },
+      {
+        "subject": "Roads--China"
+      },
+      {
+        "subject": "China--Boundaries"
+      },
+      {
+        "subject": "Islands--China"
+      },
+      {
+        "subject": "Rivers--China"
+      },
+      {
+        "subject": "Population"
+      },
+      {
+        "subject": "Demographic surveys"
+      },
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "China--Maps"
+      }
     ],
     "languages": [
-      { "id": "zho" }
+      {
+        "id": "zho"
+      }
     ],
     "version": "v1",
     "dates": [
       {
         "date": "2010",
-        "type": { "id": "issued" }
+        "type": {
+          "id": "issued"
+        }
       },
       {
         "date": "2010",
-        "type": { "id": "other" },
+        "type": {
+          "id": "other"
+        },
         "description": "temporal coverage year"
       }
     ],
-    "identifiers": [
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/33891" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/33914" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/33915" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/33916" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/33917" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/33918" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/33919" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/33920" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34209" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34210" }
-    ],
     "rights": [
       {
-        "title": { "en": "License Held by Publisher" }
+        "title": {
+          "en": "License Held by Publisher"
+        }
       }
     ]
   },

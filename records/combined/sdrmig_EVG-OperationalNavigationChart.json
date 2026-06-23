@@ -1,0 +1,89 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Operational Navigation Chart (ONC)",
+    "publication_date": "2016",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "United States. National Geospatial-Intelligence Agency",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0001 0690 8026"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "World"
+        }
+      ]
+    },
+    "description": "This collection comprises 219 items from the Operational Navigation Chart (ONC) series at 1:1,000,000 scale: 218 georeferenced raster chart sheets and one Shapefile index map serving as a spatial reference for the full sheet series. The series contains approximately 229 sheets in total and was originally published by the National Geospatial-Intelligence Agency and its predecessor organizations, including the Defense Mapping Agency and the National Imagery and Mapping Agency. The maps are designed for medium-altitude, high-speed visual and radar navigation, and are also used for operational planning and intelligence briefings. The global information available from the ONCs enables scientists to study the state of the global biosphere and to perform environmental monitoring, planning and crisis management, data intercomparison, and model testing. All sheets are in English and project to Lambert Conformal Conic. East View Geospatial completed digitization, georeferencing, and electronic archiving services in 2016. The ONC series provides near-global aeronautical navigation coverage and is part of the EVG Open Data Package. The format for data included with this record is predominantly raster data, but also consists of polygon data as well.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      {
+        "subject": "Aeronautical charts"
+      },
+      {
+        "subject": "Navigation"
+      },
+      {
+        "subject": "Aeronautics"
+      },
+      {
+        "subject": "Military intelligence"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2016",
+        "type": {
+          "id": "other"
+        },
+        "description": "digitization and georeferencing year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "raster-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_38718",
+      "bounds": "ENVELOPE(-180.0, 180.0, 84.0, -56.0)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

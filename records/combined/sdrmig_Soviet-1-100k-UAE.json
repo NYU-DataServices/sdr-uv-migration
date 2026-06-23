@@ -19,7 +19,7 @@
           "name": "Omni Resources (Firm)",
           "type": "organizational",
           "scheme": "isni",
-          "identifier":"0000 0000 9690 2607"
+          "identifier": "0000 0000 9690 2607"
         }
       }
     ],
@@ -33,84 +33,48 @@
     "description": "This collection comprises 52 raster images from the Soviet military's 1:100,000 scale topographic map series covering the United Arab Emirates, produced in 1978. Maps produced by the Soviet military were believed to be used as an organizing framework for knowledge about the world and were compiled through a combination of aerial intelligence and on-the-ground observation. Sheet numbering follows the alphanumeric system of the International Map of the World (IMW), in which the globe is divided into equal-sized zones based upon latitude and longitude, with each zone further subdivided across scales. Each map sheet embeds a production code in the outer border — usually at the bottom right — indicating the date and factory of production. The 52 sheets collectively cover the territory of the United Arab Emirates and adjacent areas, spanning approximately 50°–56.5°E and 23.3°–26.3°N. For methodology and additional context, see the manual and scholarship of John M. Davies and Alexander Kent in the associated documentation.",
     "publisher": "Omni Resources (Firm)",
     "subjects": [
-      { "subject": "Topographic maps" },
-      { "subject": "Soviet Union--Maps" },
-      { "subject": "Soviet Union--Military policy" },
-      { "subject": "Espionage" },
-      { "subject": "United Arab Emirates--Maps" }
+      {
+        "subject": "Topographic maps"
+      },
+      {
+        "subject": "Soviet Union--Maps"
+      },
+      {
+        "subject": "Soviet Union--Military policy"
+      },
+      {
+        "subject": "Espionage"
+      },
+      {
+        "subject": "United Arab Emirates--Maps"
+      }
     ],
     "languages": [
-      { "id": "rus" }
+      {
+        "id": "rus"
+      }
     ],
     "version": "v1",
     "dates": [
       {
         "date": "2016",
-        "type": { "id": "issued" }
+        "type": {
+          "id": "issued"
+        }
       },
       {
         "date": "1978",
-        "type": { "id": "other" },
+        "type": {
+          "id": "other"
+        },
         "description": "map production year"
       }
     ],
-    "identifiers": [
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34700" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34701" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34702" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34703" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34704" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34705" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34706" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34707" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34708" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34709" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34710" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34711" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34712" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34713" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34714" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34715" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34716" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34717" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34718" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34719" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34720" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34721" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34722" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34723" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34724" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34725" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34726" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34727" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34728" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34729" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34730" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34731" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34732" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34733" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34734" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34735" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34736" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34737" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34738" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34739" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34740" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34741" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34742" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34743" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34744" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34745" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34747" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34748" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34749" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34750" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34751" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34752" }
-    ],
     "rights": [
       {
-        "title": { "en": "License Held by Publisher" }
+        "title": {
+          "en": "License Held by Publisher"
+        }
       }
     ]
   },

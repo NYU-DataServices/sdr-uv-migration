@@ -7,7 +7,6 @@
     "enabled": true
   },
   "pids": {},
-  
   "metadata": {
     "title": "Art and Politics in the City Course Project, Buenos Aires and New York, 2015-2016",
     "publication_date": "2016",
@@ -26,7 +25,6 @@
         }
       }
     ],
-    
     "version": "v1",
     "locations": {
       "features": [
@@ -38,51 +36,72 @@
         }
       ]
     },
-    "description": "This collection consists of three datasets produced for the Art and Politics in the City course at New York University during 2015–2016. It includes beat boundary polygon layers for Buenos Aires and New York City—informally designated study areas assigned by course instructors that do not correspond to any established political boundaries or administrative divisions—within which students collected images and attribute information about graffiti and urban spaces. The collection also includes a comprehensive point layer representing all graffiti and street art locations recorded by students across three semesters in both cities using FulcrumApp. The point data includes place notes, descriptions, art category classifications, and photos. A documentation file is available with the archival copy of the data.",
+    "description": "This collection consists of three datasets produced for the Art and Politics in the City course at New York University during 2015–2016. It includes beat boundary polygon layers for Buenos Aires and New York City—informally designated study areas assigned by course instructors that do not correspond to any established political boundaries or administrative divisions—within which students collected images and attribute information about graffiti and urban spaces. The collection also includes a comprehensive point layer representing all graffiti and street art locations recorded by students across three semesters in both cities using FulcrumApp. The point data includes place notes, descriptions, art category classifications, and photos. A documentation file is available with the archival copy of the data. The format for data included with this record is predominantly polygon data, but also consists of point data as well.",
     "publisher": "New York University",
     "subjects": [
-      { "subject": "Graffiti" },
-      { "subject": "Graffiti artists" },
-      { "subject": "Art" },
-      { "subject": "Public spaces in art" },
-      { "subject": "Public spaces" },
-      { "subject": "Vandalism" },
-      { "subject": "Boundaries" },
-      { "subject": "Neighborhoods" },
-      { "subject": "Communities" }
+      {
+        "subject": "Graffiti"
+      },
+      {
+        "subject": "Graffiti artists"
+      },
+      {
+        "subject": "Art"
+      },
+      {
+        "subject": "Public spaces in art"
+      },
+      {
+        "subject": "Public spaces"
+      },
+      {
+        "subject": "Vandalism"
+      },
+      {
+        "subject": "Boundaries"
+      },
+      {
+        "subject": "Neighborhoods"
+      },
+      {
+        "subject": "Communities"
+      }
     ],
     "languages": [
-      { "id": "eng" }
+      {
+        "id": "eng"
+      }
     ],
     "dates": [
       {
         "date": "2016",
-        "type": { "id": "issued" }
+        "type": {
+          "id": "issued"
+        }
       },
       {
         "date": "2015/2016",
-        "type": { "id": "other" },
+        "type": {
+          "id": "other"
+        },
         "description": "collection coverage years"
       }
-    ],
-    "identifiers": [
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34194" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34195" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34597" }
     ],
     "rights": [
       {
         "id": "cc-by-sa-4.0",
-        "title": { "en": "Creative Commons Attribution Share Alike 4.0 International" }
+        "title": {
+          "en": "Creative Commons Attribution Share Alike 4.0 International"
+        }
       }
     ]
   },
   "custom_fields": {
     "geospatial:resource_type": {
-      "id": "point-data"
+      "id": "polygon-data"
     },
     "geoserver": {
-      "layer":"sdr:nyu_2451_34194",
+      "layer": "sdr:nyu_2451_34194",
       "bounds": "ENVELOPE(-74.013008, -58.3691343245, 41.31022605, -34.662196)",
       "has_wms": true,
       "has_wfs": true

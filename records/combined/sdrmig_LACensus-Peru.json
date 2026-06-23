@@ -1,0 +1,125 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Latin American Census Data: Peru, 2007",
+    "publication_date": "2020",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Instituto Nacional de Estadística e Informática (Peru)",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0001 2207 2089"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Peru"
+        }
+      ]
+    },
+    "description": "This collection comprises six geospatial datasets from Peru's Censos Nacionales 2007, collected by the Instituto Nacional de Estadística e Informatica (INEI) and documented and restructured by East View Cartographic, Inc. as part of a partnership with IPUMS International titled the Global Census Archive. The collection includes five Shapefile polygon layers organized by thematic category — Demographic, Economic, Housing, Migration, and Social — at the district administrative level (ADM3), plus the source ESRI Geodatabase from which the thematic layers were derived. All data covers 1,834 districts with 781 total attribute variables across five thematic tables. Demographic indicators include urban/rural population, age, sex, marital status, and offspring; economic indicators cover employment and unemployment, occupation, sector, and establishment size; housing indicators document house type, house size, facilities and amenities, building materials, and home ownership; migration indicators include internal migration and overseas connections; and social indicators encompass disability status, educational attainment and literacy, language, health insurance, religion, and possession of legal identification documents. All variable names were translated from Spanish, with field name prefixes used to organize attributes by theme (D = Demographic, E = Economic, H = Housing, M = Migration, S = Social). Refer to the metadata and documentation for original and translated codebooks and methodology.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Census districts"
+      },
+      {
+        "subject": "Demographic surveys"
+      },
+      {
+        "subject": "Demography"
+      },
+      {
+        "subject": "Employment"
+      },
+      {
+        "subject": "Economy"
+      },
+      {
+        "subject": "Housing"
+      },
+      {
+        "subject": "Migration"
+      },
+      {
+        "subject": "Society"
+      },
+      {
+        "subject": "Disability"
+      },
+      {
+        "subject": "Education"
+      },
+      {
+        "subject": "Literacy"
+      },
+      {
+        "subject": "Language"
+      },
+      {
+        "subject": "Religion"
+      },
+      {
+        "subject": "Health insurance"
+      },
+      {
+        "subject": "Peru--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2020",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2007",
+        "type": {
+          "id": "other"
+        },
+        "description": "census reference year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_34920",
+      "bounds": "ENVELOPE(-81.326744, -68.677986, -0.012977, -18.349728)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

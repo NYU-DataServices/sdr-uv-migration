@@ -1,0 +1,92 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Soviet 1:100k Topographic Maps of Saudi Arabia, 1978",
+    "publication_date": "2003",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Omni Resources (Firm)",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0000 9690 2607"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Saudi Arabia"
+        }
+      ]
+    },
+    "description": "This collection comprises 441 raster images from the Soviet military's 1:100,000 scale topographic map series covering Saudi Arabia, produced in 1978. Maps produced by the Soviet military were believed to be used as an organizing framework for knowledge about the world and were compiled through a combination of aerial intelligence and on-the-ground observation. Sheet numbering follows the alphanumeric system of the International Map of the World (IMW), in which the globe is divided into equal-sized zones based upon latitude and longitude, with each zone further subdivided across scales. Each map sheet embeds a production code in the outer border — usually at the bottom right — indicating the date and factory of production. The 441 sheets collectively cover the territory of Saudi Arabia and adjacent areas, spanning approximately 34.5°–52.0°E and 16.3°–32.4°N. The maps were georeferenced by staff at NYU Data Services. For methodology and additional context, see the manual and scholarship of John M. Davies and Alexander Kent in the associated documentation.",
+    "publisher": "Omni Resources (Firm)",
+    "subjects": [
+      {
+        "subject": "Topographic maps"
+      },
+      {
+        "subject": "Soviet Union--Maps"
+      },
+      {
+        "subject": "Soviet Union--Military policy"
+      },
+      {
+        "subject": "Espionage"
+      },
+      {
+        "subject": "Saudi Arabia--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "rus"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2003",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "1978",
+        "type": {
+          "id": "other"
+        },
+        "description": "map production year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "raster-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_37402",
+      "bounds": "ENVELOPE(34.475578215848344, 52.02637490020032, 32.354807785467436, 16.2779066404008)",
+      "has_wms": false,
+      "has_wfs": false
+    }
+  }
+}

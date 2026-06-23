@@ -18,8 +18,8 @@
         "person_or_org": {
           "name": "Abu Dhabi Government",
           "type": "organizational",
-          "scheme":"isni",
-          "identifier":"0000 0004 0392 1032"
+          "scheme": "isni",
+          "identifier": "0000 0004 0392 1032"
         }
       }
     ],
@@ -65,50 +65,40 @@
       }
     ],
     "languages": [
-      { "id": "eng" },
-      { "id": "ara" }
+      {
+        "id": "eng"
+      },
+      {
+        "id": "ara"
+      }
     ],
     "dates": [
       {
         "date": "2018",
-        "type": { "id": "issued" }
+        "type": {
+          "id": "issued"
+        }
       },
       {
         "date": "2010",
-        "type": { "id": "other" },
+        "type": {
+          "id": "other"
+        },
         "description": "primary collection coverage year"
       },
       {
         "date": "2005",
-        "type": { "id": "other" },
+        "type": {
+          "id": "other"
+        },
         "description": "coverage year for education datasets"
       }
     ],
-    "identifiers": [
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42122" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42123" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42124" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42125" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42126" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42127" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42128" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42129" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42130" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42131" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42132" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42133" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42134" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42135" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42136" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42137" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42138" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42139" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42140" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/42141" }
-    ],
     "rights": [
       {
-        "title": { "en": "License Held by Publisher" }
+        "title": {
+          "en": "License Held by Publisher"
+        }
       }
     ]
   },

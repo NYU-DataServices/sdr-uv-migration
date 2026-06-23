@@ -1,0 +1,108 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "ESRI Data Maps North America, 2010",
+    "publication_date": "2010",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Environmental Systems Research Institute (Redlands, Calif.)",
+          "type": "organizational",
+          "identifiers": [
+            {
+              "scheme": "isni",
+              "identifier": "0000 0004 0635 7596"
+            }
+          ]
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "North America"
+        }
+      ]
+    },
+    "description": "This collection comprises 25 Shapefile layers from ESRI Data Maps 10 (North America), a comprehensive vector reference dataset distributed with ArcGIS 10. The layers cover geographic, infrastructural, and administrative features of the United States and Canada, including state and province boundaries and boundary lines, major cities and city points, city areas, airports, highways, interstate highways, major roads, detailed streets, highway exits, maneuvers, railroads, rivers, lakes, water polygons, parks, forests, recreation areas, retail centers, transportation terminals, institutions, large area landmarks, and postal areas and postal points (ZIP codes and Forward Sortation Areas). The format for data included with this record is predominantly point data, but also consists of polygon and line data as well.",
+    "publisher": "Environmental Systems Research Institute (Redlands, Calif.)",
+    "subjects": [
+      {
+        "subject": "Transportation"
+      },
+      {
+        "subject": "City planning"
+      },
+      {
+        "subject": "Administrative and political divisions"
+      },
+      {
+        "subject": "Boundaries"
+      },
+      {
+        "subject": "Water-supply"
+      },
+      {
+        "subject": "North America"
+      },
+      {
+        "subject": "Forests and forestry"
+      },
+      {
+        "subject": "Retail trade"
+      },
+      {
+        "subject": "Public Institutions"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2010",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2010",
+        "type": {
+          "id": "other"
+        },
+        "description": "data temporal coverage"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "point-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_34055",
+      "bounds": "ENVELOPE(-179.231086, 179.859685, 85.79181, 17.83151)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

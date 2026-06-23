@@ -29,7 +29,7 @@
         }
       }
     ],
-    "publisher":"New York University Abu Dhabi",
+    "publisher": "New York University Abu Dhabi",
     "locations": {
       "features": [
         {
@@ -39,32 +39,45 @@
     },
     "description": "This vector layer represents the tribal boundaries in the Gulf Cooperation Council (GCC) region of the Middle East based on a map found in H.R.P. Dickson's 1949 book, The Arab of the Desert. Dickson was a British colonial administrator in the Middle East from the 1920s until the 1940s, and author of several books on Kuwait. The map was recreated in 2018 by an NYU Abu Dhabi student for a course project.",
     "subjects": [
-      { "subject": "Boundaries" },
-      { "subject": "Tribal government--Arab countries--History" },
-      { "subject": "Historical map" },
-      { "subject": "Families" }
+      {
+        "subject": "Boundaries"
+      },
+      {
+        "subject": "Tribal government--Arab countries--History"
+      },
+      {
+        "subject": "Historical map"
+      },
+      {
+        "subject": "Families"
+      }
     ],
     "languages": [
-      { "id": "eng" }
+      {
+        "id": "eng"
+      }
     ],
     "version": "v1",
     "dates": [
       {
         "date": "2018",
-        "type": { "id": "issued" }
+        "type": {
+          "id": "issued"
+        }
       },
       {
         "date": "1949",
-        "type": { "id": "other" },
+        "type": {
+          "id": "other"
+        },
         "description": "original map publication year"
       }
     ],
-    "identifiers": [
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/43452" }
-    ],
     "rights": [
       {
-        "title": { "en": "License Held by Publisher" }
+        "title": {
+          "en": "License Held by Publisher"
+        }
       }
     ]
   },

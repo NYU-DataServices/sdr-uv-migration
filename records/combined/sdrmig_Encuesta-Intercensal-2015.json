@@ -1,0 +1,119 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Encuesta Intercensal 2015: Geospatial Reference Layers for Mexico",
+    "publication_date": "2016",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Instituto Nacional de Estadística y Geografía (Mexico)",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0001 2289 6168"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Mexico"
+        }
+      ]
+    },
+    "description": "This collection comprises 397 Shapefile layers of geospatial reference data for all 32 Mexican states, released by the Instituto Nacional de Estadística y Geografía (INEGI) as part of the Encuesta Intercensal 2015 (Mexico's 2015 Inter-Census Population Survey), and downloaded, cleaned, and distributed by Diego Valle-Jones. The layers do not include socio-demographic survey data; instead, they provide the geographic framework used in the Encuesta Intercensal. Each state is represented by a set of 12 to 13 layers covering: rural census tracts (AGEB Rural), urban census tracts (AGEB Urban), streets, state boundary, census blocks (lines), locations of rural places without boundaries, locations of urban and rural blocks, polygons of census blocks, counties, locations of green areas and cemeteries and sports and recreation areas, routes of rivers and railways, and locations of municipal buildings and schools and parks and gardens. Some states include an additional isolated areas layer. The 32 states covered are Aguascalientes, Baja California, Baja California Sur, Campeche, Chiapas, Chihuahua, Coahuila de Zaragoza, Colima, Distrito Federal, Durango, Guanajuato, Guerrero, Hidalgo, Jalisco, Mexico, Michoacan de Ocampo, Morelos, Nayarit, Nuevo Leon, Oaxaca, Puebla, Queretaro, Quintana Roo, San Luis Potosi, Sinaloa, Sonora, Tabasco, Tamaulipas, Tlaxcala, Veracruz de Ignacio de la Llave, Yucatan, and Zacatecas. Refer to the documentation for methodologies and variable names.",
+    "publisher": "Instituto Nacional de Estadística y Geografía (Mexico)",
+    "subjects": [
+      {
+        "subject": "Census districts"
+      },
+      {
+        "subject": "Administrative and political divisions"
+      },
+      {
+        "subject": "Boundaries"
+      },
+      {
+        "subject": "Streets"
+      },
+      {
+        "subject": "Roads"
+      },
+      {
+        "subject": "Transportation"
+      },
+      {
+        "subject": "Railroads"
+      },
+      {
+        "subject": "Rivers"
+      },
+      {
+        "subject": "Water"
+      },
+      {
+        "subject": "Parks"
+      },
+      {
+        "subject": "Recreation areas"
+      },
+      {
+        "subject": "Schools"
+      },
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Mexico--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "spa"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2016",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2015",
+        "type": {
+          "id": "other"
+        },
+        "description": "survey reference year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_36752",
+      "bounds": "ENVELOPE(-118.407649550879, -86.7104052700567, 32.7199547699996, 14.5320983699991)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

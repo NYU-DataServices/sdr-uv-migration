@@ -1,0 +1,125 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Latin American Census Data: Panama, 2010",
+    "publication_date": "2020",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Instituto Nacional de Estadística y Censo Panamá",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0001 0806 7312"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Panama"
+        }
+      ]
+    },
+    "description": "This collection comprises eleven geospatial datasets from Panama's Censos Nacionales de 2010, collected by the Instituto Nacional de Estadística y Censo (INEC) and documented and restructured by East View Cartographic, Inc. as part of a partnership with IPUMS International titled the Global Census Archive. The collection includes ten Shapefile polygon layers organized by thematic category and administrative geography, plus the source ESRI Geodatabase from which the thematic layers were derived. Each of the five themes — Demographic, Economic, Housing, Migration, and Social — is represented by two parallel layers: one at the barrio level (ADM5) and one at the populated places level (ADM4). All data covers 13,124 polygons total with 1,188 attribute variables across ten thematic tables. Demographic indicators include sex, access to social insurance, marital status and family relationships, and age cohort; economic indicators cover employment, household income, and occupational category; housing indicators document housing type, size, building materials, and facilities and amenities; migration indicators include international and domestic migration; and social indicators encompass ethnicity, indigenous group membership, disability status, and literacy. All variable names were translated from Spanish, with field name prefixes used to organize attributes by theme and geography (D = Demographic, E = Economic, H = Housing, M = Migration, S = Social; BT = barrios, LP = populated places). Refer to the metadata and documentation for original and translated codebooks and methodology.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Census districts"
+      },
+      {
+        "subject": "Demographic surveys"
+      },
+      {
+        "subject": "Demography"
+      },
+      {
+        "subject": "Employment"
+      },
+      {
+        "subject": "Labor"
+      },
+      {
+        "subject": "Economy"
+      },
+      {
+        "subject": "Housing"
+      },
+      {
+        "subject": "Migration"
+      },
+      {
+        "subject": "Society"
+      },
+      {
+        "subject": "Ethnicity"
+      },
+      {
+        "subject": "Indigenous peoples"
+      },
+      {
+        "subject": "Disability"
+      },
+      {
+        "subject": "Literacy"
+      },
+      {
+        "subject": "Social insurance"
+      },
+      {
+        "subject": "Panama--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2020",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2010",
+        "type": {
+          "id": "other"
+        },
+        "description": "census reference year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_34918",
+      "bounds": "ENVELOPE(-83.051445, -77.17411, 9.644431, 7.197906)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

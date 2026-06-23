@@ -1,0 +1,102 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "India Village-Level Geospatial Socio-Economic Data Set, 2001",
+    "publication_date": "2018",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Socioeconomic Data and Applications Center",
+          "type": "organizational"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "India"
+        }
+      ]
+    },
+    "description": "This collection comprises 28 polygon Shapefile layers representing village-level socioeconomic statistics for 27 Indian states and the Union Territories, derived from India's 2001 Census. The dataset utilizes official cadastral maps published by the Survey of India to develop a digitized, fine-resolution vector dataset at the village and town administrative level (scale of mapping: 1:50,000). Village and town boundary vectors were geospatially linked to tabular census data from the Census of India 2001 following extensive data cleaning to ensure quality control and standardization. Each layer covers one state or the Union Territories, with attribute variables covering population, literacy, agricultural labor, and employment characteristics. The 28 layers span Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Tripura, Union Territories, Uttar Pradesh, Uttarakhand, and West Bengal. This dataset was published by the Socioeconomic Data and Applications Center (SEDAC) and is also hosted by Columbia University's Center for International Earth Science Information Network (CIESIN). Refer to the documentation for data methodology and codebook. Socio-Economic Data for the state of Nagaland is not available in this dataset.",
+    "publisher": "Socioeconomic Data and Applications Center",
+    "subjects": [
+      {
+        "subject": "Villages"
+      },
+      {
+        "subject": "Population"
+      },
+      {
+        "subject": "Literacy"
+      },
+      {
+        "subject": "Agricultural laborers"
+      },
+      {
+        "subject": "Employment"
+      },
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Demography"
+      },
+      {
+        "subject": "Socioeconomics"
+      },
+      {
+        "subject": "India--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2018",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2001",
+        "type": {
+          "id": "other"
+        },
+        "description": "census reference year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_42185",
+      "bounds": "ENVELOPE(68.1100921630859, 97.40910348, 37.050301, 6.554608)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

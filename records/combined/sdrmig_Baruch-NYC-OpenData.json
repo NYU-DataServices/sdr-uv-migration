@@ -31,7 +31,7 @@
         }
       ]
     },
-    "description": "This collection consists of 26 individual spatial layers and two consolidated geodatabases comprising the NYC Geodatabase (nyc_gdb, version January 2016), a resource designed for basic geographic analysis and thematic mapping within the five boroughs of New York City, created by the GIS Lab at the Newman Library, Baruch College, CUNY. The layers were compiled from public sources including the NYC Department of City Planning, NYC Open Data, the U.S. Census Bureau, and various city agencies. Coverage includes administrative boundaries (boroughs, census tracts, ZIP Code Tabulation Areas, Public Use Microdata Areas, and metropolitan area counties), physical geography (coastal water, rivers, lakes, reservoirs, greenspace, and landmarks), transportation infrastructure (roads, subway stations and complexes, train stations, and PATH stations with ridership data), and public facilities (public and private schools, hospitals, public libraries, colleges and universities, and large public facilities such as airports and correctional facilities). The collection also includes two consolidated geodatabases—an open-source SQLite version (nyu_2451_34635) and an ArcGIS version (nyu_2451_34636)—that bundle all layers along with related Census tabular data from the 2010 Census and American Community Survey. This dataset is intended for researchers, students, policy makers, and educators for reference and basic geographic analysis and mapping purposes.",
+    "description": "This collection consists of 26 individual spatial layers and two consolidated geodatabases comprising the NYC Geodatabase (nyc_gdb, version January 2016), a resource designed for basic geographic analysis and thematic mapping within the five boroughs of New York City, created by the GIS Lab at the Newman Library, Baruch College, CUNY. The layers were compiled from public sources including the NYC Department of City Planning, NYC Open Data, the U.S. Census Bureau, and various city agencies. Coverage includes administrative boundaries (boroughs, census tracts, ZIP Code Tabulation Areas, Public Use Microdata Areas, and metropolitan area counties), physical geography (coastal water, rivers, lakes, reservoirs, greenspace, and landmarks), transportation infrastructure (roads, subway stations and complexes, train stations, and PATH stations with ridership data), and public facilities (public and private schools, hospitals, public libraries, colleges and universities, and large public facilities such as airports and correctional facilities). The collection also includes two consolidated geodatabases—an open-source SQLite version (nyu_2451_34635) and an ArcGIS version (nyu_2451_34636)—that bundle all layers along with related Census tabular data from the 2010 Census and American Community Survey. This dataset is intended for researchers, students, policy makers, and educators for reference and basic geographic analysis and mapping purposes. The format for data included with this record is predominantly polygon data, but also consists of point, line, and multi-spectral data as well.",
     "publisher": "Newman Library (Bernard M. Baruch College)",
     "subjects": [
       {
@@ -60,54 +60,32 @@
       }
     ],
     "languages": [
-      { "id": "eng" }
+      {
+        "id": "eng"
+      }
     ],
     "version": "v1",
     "dates": [
       {
         "date": "2016",
-        "type": { "id": "issued" }
+        "type": {
+          "id": "issued"
+        }
       },
       {
         "date": "2010/2016",
-        "type": { "id": "other" },
+        "type": {
+          "id": "other"
+        },
         "description": "Coverage years of the collection. Administrative and physical geography layers primarily from the 2010 Census; public facility and transit layers updated to 2015–2016"
       }
-    ],
-    "identifiers": [
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34490" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34491" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34492" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34493" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34494" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34495" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34496" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34497" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34498" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34499" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34500" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34501" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34502" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34503" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34504" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34505" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34506" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34507" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34508" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34509" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34510" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34511" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34512" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34513" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34514" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34516" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34635" },
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/34636" }
     ],
     "rights": [
       {
         "id": "cc-by-nc-nd-4.0",
-        "title": { "en": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International" }
+        "title": {
+          "en": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International"
+        }
       }
     ]
   },

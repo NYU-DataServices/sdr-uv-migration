@@ -1,0 +1,122 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Latin American Census Data: Guatemala, 2014",
+    "publication_date": "2020",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Instituto Nacional de Estadística (Guatemala)",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0000 9853 9936"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Guatemala"
+        }
+      ]
+    },
+    "description": "This collection comprises five geospatial datasets from Guatemala's 2014 Census, collected by the Instituto Nacional de Estadística (INE) and documented and restructured by East View Cartographic, Inc. as part of a partnership with IPUMS International titled the Global Census Archive. The collection includes four Shapefile polygon layers organized by thematic category — Demographic, Economic, Housing, and Social — at the barrio administrative level (ADM5), plus the source ESRI Geodatabase from which the thematic layers were derived. All data covers 15,263 barrios with 229 total attribute variables across four thematic tables. Demographic indicators include sex, marital status, family dependents, age, and urban/rural residential location; economic indicators cover employment and unemployment, industry, and occupational category; housing indicators document housing type, building materials, and access to basic necessities; and social indicators encompass educational attainment and literacy, disability status, ethnicity, and language. All variable names were translated from Spanish, with field name prefixes used to organize attributes by theme (D = Demographic, E = Economic, H = Housing, S = Social). Refer to the metadata and documentation for original and translated codebooks and methodology.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Census districts"
+      },
+      {
+        "subject": "Demographic surveys"
+      },
+      {
+        "subject": "Demography"
+      },
+      {
+        "subject": "Employment"
+      },
+      {
+        "subject": "Economy"
+      },
+      {
+        "subject": "Housing"
+      },
+      {
+        "subject": "Society"
+      },
+      {
+        "subject": "Ethnicity"
+      },
+      {
+        "subject": "Language"
+      },
+      {
+        "subject": "Disability"
+      },
+      {
+        "subject": "Education"
+      },
+      {
+        "subject": "Literacy"
+      },
+      {
+        "subject": "Urbanization"
+      },
+      {
+        "subject": "Guatemala--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2020",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2014",
+        "type": {
+          "id": "other"
+        },
+        "description": "census reference year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_34922",
+      "bounds": "ENVELOPE(-92.23629, -88.223198, 17.81522, 13.737302)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Latin American Census Data: Colombia, 2005",
+    "publication_date": "2020",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Departamento Administrativo Nacional de Estadística Colombia",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0001 2342 6360"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Colombia"
+        }
+      ]
+    },
+    "description": "This collection comprises six geospatial datasets from Colombia's Censo 2005, collected by the Departamento Administrativo Nacional de Estadística (DANE) and documented and restructured by East View Cartographic, Inc. as part of a partnership with IPUMS International titled the Global Census Archive. The collection includes five Shapefile polygon layers organized by thematic category — Demographic, Economic, Housing, Migration, and Social — at the manzana administrative level (ADM6), plus the source ESRI Geodatabase from which the thematic layers were derived. All data covers 261,263 manzanas with 194 total attribute variables across five thematic tables. Demographic indicators include gender, age, and marital status; economic indicators cover business characteristics and household economic activity; housing indicators document housing type, facilities and amenities, and household relationships; migration indicators include place of birth, geographic mobility, and overseas connections; and social indicators encompass education and literacy, ethnicity, and disability status. All variable names were translated from Spanish, with field name prefixes used to organize attributes by theme (D = Demographic, E = Economic, H = Housing, M = Migration, S = Social). Refer to the metadata and documentation for original and translated codebooks and methodology.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Census districts"
+      },
+      {
+        "subject": "Demographic surveys"
+      },
+      {
+        "subject": "Demography"
+      },
+      {
+        "subject": "Employment"
+      },
+      {
+        "subject": "Economy"
+      },
+      {
+        "subject": "Housing"
+      },
+      {
+        "subject": "Migration"
+      },
+      {
+        "subject": "Society"
+      },
+      {
+        "subject": "Ethnicity"
+      },
+      {
+        "subject": "Disability"
+      },
+      {
+        "subject": "Education"
+      },
+      {
+        "subject": "Literacy"
+      },
+      {
+        "subject": "Colombia--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2020",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2005",
+        "type": {
+          "id": "other"
+        },
+        "description": "census reference year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_34915",
+      "bounds": "ENVELOPE(-81.728111, -66.869835, 13.390292, -4.225869)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

@@ -24,7 +24,7 @@
         }
       }
     ],
-    "publisher":"Jewish Data Bank",
+    "publisher": "Jewish Data Bank",
     "locations": {
       "features": [
         {
@@ -34,27 +34,36 @@
     },
     "description": "This polygon shapefile contains estimates of the number of Jewish persons in the U.S. by county in 2010 census geographies, based upon multiple sources of data, including Jewish community studies available at the Jewish Data Bank, the Data Bank's Current Jewish Population Report series, and the American Community Survey. Joshua Comenetz used indicators like language spoken and ancestry in the absence of standard demographic data to measure Jewish populations. For more information on the methodology used to compile this data set, see the Jewish Data Bank.",
     "subjects": [
-      { "subject": "Demographics" },
-      { "subject": "Religion" },
-      { "subject": "Judaism" }
+      {
+        "subject": "Demographics"
+      },
+      {
+        "subject": "Religion"
+      },
+      {
+        "subject": "Judaism"
+      }
     ],
     "languages": [
-      { "id": "eng" }
+      {
+        "id": "eng"
+      }
     ],
     "version": "v1",
     "dates": [
       {
         "date": "2015",
-        "type": { "id": "issued" }
+        "type": {
+          "id": "issued"
+        }
       },
       {
         "date": "2010",
-        "type": { "id": "other" },
+        "type": {
+          "id": "other"
+        },
         "description": "temporal coverage year"
       }
-    ],
-    "identifiers": [
-      { "scheme": "handle", "identifier": "http://hdl.handle.net/2451/33876" }
     ],
     "related_identifiers": [
       {
@@ -70,7 +79,9 @@
     ],
     "rights": [
       {
-        "title": { "en": "License Held by Publisher" }
+        "title": {
+          "en": "License Held by Publisher"
+        }
       }
     ]
   },
