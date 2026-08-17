@@ -1,0 +1,102 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "ESRI 2015 Educational Data",
+    "publication_date": "2015",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Environmental Systems Research Institute (Redlands, Calif.)",
+          "type": "organizational",
+          "identifiers": [
+            {
+              "scheme": "isni",
+              "identifier": "0000 0004 0635 7596"
+            }
+          ]
+        }
+      }
+    ],
+    "version": "v1",
+    "locations": {
+      "features": [
+        {
+          "place": "United States of America"
+        }
+      ]
+    },
+    "description": "This collection brings together ESRI 2015 Educational Data for the United States. It includes the 2009-2013 American Community Survey geodatabase, updated demographic data, consumer spending data, the ESRI Tapestry geodatabase, and Tapestry Market Segmentation data distributed across multiple geographic levels, including the United States, states, counties, county subdivisions, census tracts, block groups, ZIP codes, congressional districts, core-based statistical areas, designated market areas, and census designated places. Together, these datasets support research and teaching on population, households, education, income, race, consumer behavior, and market segmentation.",
+    "publisher": "Environmental Systems Research Institute (Redlands, Calif.)",
+    "subjects": [
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Demographic surveys--United States"
+      },
+      {
+        "subject": "Market segmentation"
+      },
+      {
+        "subject": "Consumer spending"
+      },
+      {
+        "subject": "Education"
+      },
+      {
+        "subject": "Income"
+      },
+      {
+        "subject": "Race"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2015",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2015",
+        "type": {
+          "id": "other"
+        },
+        "description": "collection coverage year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_34610",
+      "bounds": "ENVELOPE(-179.147330000229, -64.5665435791, 71.6032483233, 18.9117200002458)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

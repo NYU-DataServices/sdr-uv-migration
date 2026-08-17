@@ -1,0 +1,93 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "ESRI Data Maps Europe,2010",
+    "publication_date": "2010",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Environmental Systems Research Institute (Redlands, Calif.)",
+          "type": "organizational",
+          "identifiers": [
+            {
+              "scheme": "isni",
+              "identifier": "0000 0004 0635 7596"
+            }
+          ]
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Europe"
+        }
+      ]
+    },
+    "description": "This collection comprises four Shapefile layers from ESRI Data Maps 10 (Europe), distributed with ArcGIS 10. Each layer represents aggregated socioeconomic and demographic information for Europe at a different level of the NUTS (Nomenclature of Territorial Units for Statistics) hierarchy: NUTS 0 (country level), NUTS 1 (major socioeconomic regions, averaging 3–7 million people), NUTS 2 (basic regions for the application of regional policies, averaging 800,000–3,000,000 people), and NUTS 3 (small regions for specific diagnoses, averaging 150,000–800,000 people). Variables include population, demographic, and socioeconomic indicators compiled from Eurostat. For more information on the NUTS classification, see http://ec.europa.eu/eurostat/ramon/nuts/home_regions_en.html.",
+    "publisher": "Environmental Systems Research Institute (Redlands, Calif.)",
+    "subjects": [
+      {
+        "subject": "Demography"
+      },
+      {
+        "subject": "Population"
+      },
+      {
+        "subject": "Europe--Social conditions"
+      },
+      {
+        "subject": "Europe--Administrative and political divisions--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2010",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2010",
+        "type": {
+          "id": "other"
+        },
+        "description": "data temporal coverage"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:invenio_495",
+      "bounds": "ENVELOPE(-31.268789, 69.068487, 77.001793998, 27.638029)",
+      "has_wms": true,
+      "has_wfs": false
+    }
+  }
+}

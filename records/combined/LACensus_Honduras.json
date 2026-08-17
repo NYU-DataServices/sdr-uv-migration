@@ -1,0 +1,128 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Latin American Census Data: Honduras, 2013",
+    "publication_date": "2020",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Instituto Nacional de Estadística (Honduras)",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0001 2322 606X"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Honduras"
+        }
+      ]
+    },
+    "description": "This collection comprises seven geospatial datasets from Honduras's 2013 Census, collected by the Instituto Nacional de Estadística (INE) and documented and restructured by East View Cartographic, Inc. as part of a partnership with IPUMS International titled the Global Census Archive. The collection includes six Shapefile polygon layers organized by thematic category — Demographic, Economic, Housing, Migration, Social, and Transportation — at the barrio administrative level (ADM5), plus the source ESRI Geodatabase from which the thematic layers were derived. All data covers 3,732 barrios with 629 total attribute variables across six thematic tables. Demographic indicators include sex, marital status, offspring, age, and household relationships; economic indicators cover employment and unemployment, sector, and occupational category; housing indicators document housing type, building materials, household facilities and amenities, and housing adequacy and security; migration indicators include immigration, internal migration, and government documentation; social indicators encompass indigenous group membership, ethnicity, disability status, literacy and educational attainment, and access to communications technology; and transportation indicators cover access to personal transportation. All variable names were translated from Spanish, with field name prefixes used to organize attributes by theme (D = Demographic, E = Economic, H = Housing, M = Migration, S = Social, T = Transportation). Refer to the metadata and documentation for original and translated codebooks and methodology.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Census districts"
+      },
+      {
+        "subject": "Demographic surveys"
+      },
+      {
+        "subject": "Demography"
+      },
+      {
+        "subject": "Employment"
+      },
+      {
+        "subject": "Labor"
+      },
+      {
+        "subject": "Economy"
+      },
+      {
+        "subject": "Housing"
+      },
+      {
+        "subject": "Migration"
+      },
+      {
+        "subject": "Society"
+      },
+      {
+        "subject": "Ethnicity"
+      },
+      {
+        "subject": "Indigenous peoples"
+      },
+      {
+        "subject": "Disability"
+      },
+      {
+        "subject": "Education"
+      },
+      {
+        "subject": "Literacy"
+      },
+      {
+        "subject": "Transportation"
+      },
+      {
+        "subject": "Honduras--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2020",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2013",
+        "type": {
+          "id": "other"
+        },
+        "description": "census reference year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:invenio_474",
+      "bounds": "ENVELOPE(-89.350792, -83.155403, 17.423628, 12.982411)",
+      "has_wms": true,
+      "has_wfs": false
+    }
+  }
+}

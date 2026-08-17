@@ -1,0 +1,101 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Historical China County Population Census Data",
+    "publication_date": "2005",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Beijing Hua tong ren shi chang xin xi you xian ze ren gong si",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0000 8749 3338"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "People's Republic of China, China"
+        }
+      ]
+    },
+    "description": "This collection comprises nine polygon shapefiles documenting county and province boundaries across four Chinese national census years — 1953, 1964, 1982, and 1990 — compiled from historical administrative maps by Beijing Hua tong ren shi chang xin xi you xian ze ren gong si and published in 2005. The county-level layers (nyu_2451_34625, 34626, 34627, 34628, 34775) pair administrative boundaries with population census data for each respective year; the 1982 and 1990 county layers additionally include sex ratio and mortality variables. The 1990 county data is split across two files (Parts 1 and 2). The province-level layers (nyu_2451_34630, 34631, 34632, 34633) document corresponding provincial administrative boundaries for the same census years. Source cartographic references include the 'Historical Administrative Maps of the People's Republic of China' (China Map Press), the 'China Map of Population' (China Statistical Press), and 'The Administrative Maps of the People's Republic of China' (China Map Press). Each dataset is accompanied by documentation. The collection supports longitudinal research on China's administrative geography and demographic change across the second half of the twentieth century.",
+    "publisher": "Beijing Hua tong ren shi chang xin xi you xian ze ren gong si",
+    "subjects": [
+      {
+        "subject": "China--Boundaries"
+      },
+      {
+        "subject": "Boundaries"
+      },
+      {
+        "subject": "Population"
+      },
+      {
+        "subject": "Demographic surveys"
+      },
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Sex ratio"
+      },
+      {
+        "subject": "Mortality"
+      },
+      {
+        "subject": "China--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2005",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "1953/1990",
+        "type": {
+          "id": "other"
+        },
+        "description": "temporal coverage spans four Chinese national census years: 1953, 1964, 1982, and 1990"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_34633",
+      "bounds": "ENVELOPE(73.557693, 134.773911, 53.56086, 10.175472)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

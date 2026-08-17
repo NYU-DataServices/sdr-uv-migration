@@ -1,0 +1,159 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {
+    "doi": {
+      "identifier": "10.17609/N8MQ0N",
+      "provider": "external"
+    }
+  },
+  "metadata": {
+    "title": "2015 Aerial Laser and Photogrammetry Survey of Dublin City",
+    "publication_date": "2017",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Laefer, Debra F.",
+          "type": "personal",
+          "given_name": "Debra F.",
+          "family_name": "Laefer",
+          "scheme": "orcid",
+          "identifier": "0000-0001-5134-5322"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "Abuwarda, Saleh",
+          "type": "personal",
+          "given_name": "Saleh",
+          "family_name": "Abuwarda"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "Vo, Anh-Vu",
+          "type": "personal",
+          "given_name": "Anh-Vu",
+          "family_name": "Vo",
+          "scheme": "orcid",
+          "identifier": "0000-0002-6471-4905"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "Truong-Hong, Linh",
+          "type": "personal",
+          "given_name": "Linh",
+          "family_name": "Truong-Hong",
+          "scheme": "orcid",
+          "identifier": "0000-0003-2126-6409"
+        }
+      },
+      {
+        "person_or_org": {
+          "name": "Gharibi, Hamid",
+          "type": "personal",
+          "given_name": "Hamid",
+          "family_name": "Gharibi"
+        }
+      }
+    ],
+    "publisher": "New York University. Center for Urban Science and Progress",
+    "locations": {
+      "features": [
+        {
+          "place": "Dublin City, Leinster, Ireland"
+        }
+      ]
+    },
+    "description": "This record serves as an index to a suite of high density, aerial remote sensing data for a 2km² area of Dublin, Ireland obtained at an average flying altitude of 300m. Collected in March 2015, the data include aerial laser scanning (ALS) from 41 flight paths in the form of a 3D point-cloud (LAZ) and 3D full waveform ALS (LAS and Pulsewave), and imagery data including ortho-rectified 2D rasters (RGBi) and oblique images. The ALS data consist of over 1.4 billion points (inclusive of partially covered areas) and were acquired by a TopEye system S/N 443. Imagery data were captured using a Phase One camera system. In this data offering, the ALS and imagery data are structured both by flight paths and by 500 × 500 m rectangular tiles. Miscellaneous data including video records and instrument parameters are available in the preservation record. For more information on these data including related publications, reports, and bulk-download instructions, please consult the documentation. For a visualization of the data as compared to standard LiDAR data density, please consult the video flythrough available at https://youtu.be/qEi2Wo7Bcuk. This dataset was collected with funding from European Research Council Consolidator project RETURN – Rethinking Tunnelling in Urban Neighbourhoods [ERC-2012-StG-307836] and additional funding from Science Foundation Ireland [12/ERC/I2534]. These data were released with an Attribution 4.0 International (CC BY 4.0) license. Researchers can access these files in two ways. They can be downloaded individually by flight path, in a zip file containing all formats, using the links below or in bulk via the UltraViolet API (see https://library.answers.nyu.edu/faq/381747). Alternatively, researchers can download each file format individually or in bulk, organized by flight path, using the faster Globus option at https://app.globus.org/file-manager?origin_id=c43d41ac-d286-4ac4-9318-3d65f3d9b855&origin_path=%2Fn8mq0n-dublinlidar%2F",
+    "subjects": [
+      {
+        "subject": "Cities and towns"
+      },
+      {
+        "subject": "Urban density"
+      },
+      {
+        "subject": "Urban development"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2017",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2015",
+        "type": {
+          "id": "other"
+        },
+        "description": "data collection year"
+      }
+    ],
+    "related_identifiers": [
+      {"identifier": "10.1016/j.isprsjprs.2018.04.004", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1016/j.isprsjprs.2018.01.012", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1007/978-3-319-91635-4_13", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-conferencepaper"}},
+      {"identifier": "10.1016/j.jag.2017.09.010", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1061/(ASCE)CP.1943-5487.0000674", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1080/01431161.2016.1256511", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "http://hdl.handle.net/10197/7765", "scheme": "handle", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1109/JSTARS.2016.2581843", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1201/9781315616995-4", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-conferencepaper"}},
+      {"identifier": "10.1007/978-3-319-50832-0_44", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-conferencepaper"}},
+      {"identifier": "10.17654/ACSE", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1061/(ASCE)CP.1943-5487.0000524", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1016/j.isprsjprs.2015.01.011", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1016/j.isprsjprs.2015.01.014", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1016/j.cag.2015.03.001", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.5194/isprsarchives-XL-3-W3-527-2015", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-conferencepaper"}},
+      {"identifier": "10.1109/ICSDM.2015.7298040", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-conferencepaper"}},
+      {"identifier": "10.1109/IGARSS.2015.7326746", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-conferencepaper"}},
+      {"identifier": "10.2174/2352631901401010001", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1016/j.cad.2014.03.001", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "http://hdl.handle.net/10197/7455", "scheme": "handle", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-conferencepaper"}},
+      {"identifier": "10.1061/(ASCE)SU.1943-5428.0000097", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1016/j.cageo.2012.08.021", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "http://hdl.handle.net/10197/7549", "scheme": "handle", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-conferencepaper"}},
+      {"identifier": "http://hdl.handle.net/10197/4872", "scheme": "handle", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}},
+      {"identifier": "10.1111/j.1467-8667.2012.00761.x", "scheme": "doi", "relation_type": {"id": "iscitedby"}, "resource_type": {"id": "publication-article"}}
+    ],
+    "rights": [
+      {
+        "id": "cc-by-4.0",
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        },
+        "link": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "point-cloud"
+    },
+    "geoserver": {
+      "layer": "sdr:nyu_2451_38684",
+      "bounds": "ENVELOPE(-6.284507, -6.236363, 53.360669, 53.331333)",
+      "has_wms": true,
+      "has_wfs": true
+    }
+  }
+}

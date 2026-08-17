@@ -1,0 +1,75 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "metadata": {
+    "title": "County-Level Real Property Tax Parcel Data for New York State, 2004",
+    "publication_date": "2018",
+    "publisher": "New York (State). Department of Taxation and Finance",
+    "subjects": [
+      {
+        "subject": "Land value taxation"
+      },
+      {
+        "subject": "Property"
+      },
+      {
+        "subject": "Tax assessment"
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "New York (State)--New York"
+        }
+      ]
+    },
+    "resource_type": {
+      "id": "dataset"
+    },
+    "language": [
+      "eng"
+    ],
+    "description": "This dataset consists of point shapefile layers representing real property tax parcels for all counties in New York State for the year 2004. Each point represents the visual center of a parcel as recorded on local tax maps. The associated attribute data—including property ownership, assessed land value, and taxation status—was derived from municipal assessment rolls submitted annually under Article 15 of the Real Property Tax Law to the Office of Real Property Services (ORPS). These data were standardized and stored in a central database for the purpose of calculating equalization rates.",
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "New York (State). Department of Taxation and Finance",
+          "type": "organizational"
+        }
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2004",
+        "type": {
+          "id": "other"
+        },
+        "description": "collection coverage years"
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "point-data"
+    },
+    "geoserver": {
+      "layer": "sdr:invenio_426",
+      "bounds": "ENVELOPE(-79.762152, -72.135189, 45.010025, 40.574608)",
+      "has_wms": true,
+      "has_wfs": false
+    }
+  }
+}

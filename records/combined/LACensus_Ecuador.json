@@ -1,0 +1,125 @@
+{
+  "access": {
+    "record": "public",
+    "files": "restricted"
+  },
+  "files": {
+    "enabled": true
+  },
+  "pids": {},
+  "metadata": {
+    "title": "Latin American Census Data: Ecuador, 2010",
+    "publication_date": "2020",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "name": "Instituto Nacional de Estadística y Censos",
+          "type": "organizational",
+          "scheme": "isni",
+          "identifier": "0000 0004 7477 3268"
+        }
+      }
+    ],
+    "locations": {
+      "features": [
+        {
+          "place": "Ecuador"
+        }
+      ]
+    },
+    "description": "This collection comprises six geospatial datasets from Ecuador's Censo 2010, collected by the Instituto Nacional de Estadística y Censos (INEC) and documented and restructured by East View Cartographic, Inc. as part of a partnership with IPUMS International titled the Global Census Archive. The collection includes five Shapefile polygon layers organized by thematic category — Demographic, Economic, Housing, Migration, and Social — at the sector administrative level (ADM6), plus the source ESRI Geodatabase from which the thematic layers were derived. All data covers 40,649 sectors with 1,235 total attribute variables across five thematic tables. Demographic indicators include sex, age, family reproduction, and relationship to the head of the household; economic indicators cover employment, industry, and occupational category; housing indicators document housing type, building materials, home ownership, and household facilities and amenities; migration indicators include citizenship, place of birth, immigration, internal migration, and remittances; and social indicators encompass education, social insurance, disability status, indigenous group membership, and access to communications technology. All variable names were translated from Spanish, with field name prefixes used to organize attributes by theme (D = Demographic, E = Economic, H = Housing, M = Migration, S = Social). Refer to the metadata and documentation for original and translated codebooks and methodology.",
+    "publisher": "East View Cartographic, Inc.",
+    "subjects": [
+      {
+        "subject": "Census"
+      },
+      {
+        "subject": "Census districts"
+      },
+      {
+        "subject": "Demographic surveys"
+      },
+      {
+        "subject": "Demography"
+      },
+      {
+        "subject": "Employment"
+      },
+      {
+        "subject": "Economy"
+      },
+      {
+        "subject": "Housing"
+      },
+      {
+        "subject": "Migration"
+      },
+      {
+        "subject": "Immigration"
+      },
+      {
+        "subject": "Remittances"
+      },
+      {
+        "subject": "Society"
+      },
+      {
+        "subject": "Indigenous peoples"
+      },
+      {
+        "subject": "Disability"
+      },
+      {
+        "subject": "Education"
+      },
+      {
+        "subject": "Social insurance"
+      },
+      {
+        "subject": "Ecuador--Maps"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng"
+      }
+    ],
+    "version": "v1",
+    "dates": [
+      {
+        "date": "2020",
+        "type": {
+          "id": "issued"
+        }
+      },
+      {
+        "date": "2010",
+        "type": {
+          "id": "other"
+        },
+        "description": "census reference year"
+      }
+    ],
+    "rights": [
+      {
+        "title": {
+          "en": "License Held by Publisher"
+        }
+      }
+    ]
+  },
+  "custom_fields": {
+    "geospatial:resource_type": {
+      "id": "polygon-data"
+    },
+    "geoserver": {
+      "layer": "sdr:invenio_470",
+      "bounds": "ENVELOPE(-92.012918889569, -75.184586, 1.6872511972518, -4.998823)",
+      "has_wms": true,
+      "has_wfs": false
+    }
+  }
+}
